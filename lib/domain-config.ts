@@ -52,22 +52,44 @@ export const DOMAIN_CONFIGS: Record<string, DomainConfig> = {
   "trilogysunstonehomes.com": { domain: "trilogysunstonehomes.com", neighborhood: "Trilogy at Sunstone", tagline: "Trilogy at Sunstone 55+ Homes", description: "Trilogy at Sunstone 55+ active adult community homes in Las Vegas. Dr. Jan Duffy, specialist.", heroHeadline: "Trilogy at Sunstone Homes for Sale", heroSubheadline: "Del Webb's premier 55+ active adult community in Northwest Las Vegas.", keywords: ["Trilogy Sunstone homes", "Trilogy at Sunstone Las Vegas", "Del Webb Northwest Las Vegas"], pageType: "55plus", realscoutAgentId: REALSCOUT_AGENT_ID, ctaBadge: "Trilogy Specialist", ctaHeadline: "Discover Trilogy at Sunstone", ctaSubheadline: "Del Webb quality, resort amenities, active lifestyle — let me show you everything." },
   "vegas55plushomes.com": { domain: "vegas55plushomes.com", neighborhood: "Las Vegas 55+", tagline: "Las Vegas 55+ Homes for Sale", description: "Search all Las Vegas 55+ active adult community homes. Sun City, Del Webb, Trilogy and more.", heroHeadline: "Las Vegas 55+ Homes for Sale", heroSubheadline: "Find the perfect active adult community — Sun City, Del Webb, Trilogy, Heritage and more.", keywords: ["Las Vegas 55 plus homes", "active adult Las Vegas", "Las Vegas senior communities"], pageType: "55plus", realscoutAgentId: REALSCOUT_AGENT_ID, ctaBadge: "55+ Community Expert", ctaHeadline: "Find Your 55+ Community", ctaSubheadline: "I know every 55+ community in Las Vegas. Let me match you with your perfect lifestyle." },
   "yourdivorcerealtor.com": { domain: "yourdivorcerealtor.com", neighborhood: "Las Vegas", tagline: "Divorce Real Estate Specialist Las Vegas", description: "Confidential Las Vegas divorce real estate specialist. Dr. Jan Duffy handles court-ordered sales with discretion.", heroHeadline: "Your Divorce Real Estate Specialist", heroSubheadline: "Confidential, compassionate real estate guidance during life's most challenging transitions.", keywords: ["divorce realtor Las Vegas", "divorce real estate Las Vegas", "court ordered sale Las Vegas"], pageType: "lifestyle", realscoutAgentId: REALSCOUT_AGENT_ID, ctaBadge: "Confidential Support", ctaHeadline: "Private Consultation Available", ctaSubheadline: "I handle divorce sales with complete discretion. Let's discuss your options privately." },
+  "askberkshirehomes.com": {
+    domain: "askberkshirehomes.com",
+    neighborhood: "Nevada",
+    tagline: "Nevada real estate terms explained",
+    description:
+      "Plain-language Nevada and Las Vegas real estate glossary—SID/LID, SRPD, earnest money, HOA resale packages, and more.",
+    heroHeadline: "Nevada Real Estate Terms, Simply Explained",
+    heroSubheadline:
+      "Definitions for buyers, sellers, and investors from Dr. Jan Duffy, REALTOR®.",
+    keywords: [
+      "Nevada real estate glossary",
+      "Las Vegas real estate terms",
+      "SID assessment Nevada",
+    ],
+    pageType: "community",
+    realscoutAgentId: REALSCOUT_AGENT_ID,
+    ctaBadge: "Glossary",
+    ctaHeadline: "Questions about your transaction?",
+    ctaSubheadline: "Call (702) 842-1192 for a straight answer on Nevada contract terms.",
+  },
 };
 
 // Default config for any domain not specifically listed
 export const DEFAULT_CONFIG: DomainConfig = {
-  domain: "default",
-  neighborhood: "Las Vegas",
-  tagline: "Las Vegas Homes for Sale",
-  description: "Search Las Vegas homes for sale. Expert real estate guidance from Dr. Jan Duffy, BHHS Nevada Properties.",
-  heroHeadline: "Las Vegas Homes for Sale",
-  heroSubheadline: "Expert real estate guidance from Dr. Jan Duffy — 30+ years, 500+ families helped.",
-  keywords: ["Las Vegas homes for sale", "Las Vegas real estate", "Dr Jan Duffy"],
-  pageType: "search",
+  domain: "askberkshirehomes.com",
+  neighborhood: "Nevada",
+  tagline: "Nevada real estate terms explained",
+  description:
+    "Plain-language Nevada and Las Vegas real estate glossary from Dr. Jan Duffy, REALTOR®.",
+  heroHeadline: "Nevada Real Estate Terms, Simply Explained",
+  heroSubheadline:
+    "SID/LID assessments, SRPD, earnest money, HOA resale packages, and more—simply explained.",
+  keywords: ["Nevada real estate terms explained", "Las Vegas real estate glossary"],
+  pageType: "community",
   realscoutAgentId: REALSCOUT_AGENT_ID,
-  ctaBadge: "Las Vegas Expert",
-  ctaHeadline: "Find Your Las Vegas Home",
-  ctaSubheadline: "Call or text Dr. Jan at 702-222-1964 — I answer my own phone.",
+  ctaBadge: "Glossary",
+  ctaHeadline: "Need a term explained for your deal?",
+  ctaSubheadline: "Call (702) 842-1192 or visit askdrjanduffy.com for Q&A.",
 };
 
 export function getDomainConfig(hostname: string): DomainConfig {

@@ -1,182 +1,123 @@
-import Navbar from "@/components/layouts/Navbar";
-import RealScoutListings from "@/components/realscout/RealScoutListings";
-import WhyChooseUs from "@/components/sections/WhyChooseUs";
-import ReviewsSection from "@/components/sections/ReviewsSection";
-import FAQSection from "@/components/sections/FAQSection";
-import Footer from "@/components/layouts/Footer";
+import type { Metadata } from "next";
 import Link from "next/link";
-import { Phone, Home as HomeIcon, TrendingUp, Shield, Users } from "lucide-react";
-import { getPageDomainConfig } from "@/lib/get-domain-config";
+import Navbar from "@/components/layouts/Navbar";
+import Footer from "@/components/layouts/Footer";
+import { GLOSSARY_TERMS } from "@/lib/glossary-terms";
+import { agentInfo, officeInfo, siteConfig } from "@/lib/site-config";
+import { getSiteUrl } from "@/lib/site-url";
+import { Phone, BookOpen, ExternalLink } from "lucide-react";
 
-export default async function Home() {
-  const config = await getPageDomainConfig();
+const siteUrl = getSiteUrl();
 
-  const organizationSchema = {
+export const metadata: Metadata = {
+  title: siteConfig.pageTitle,
+  description: siteConfig.description,
+  alternates: { canonical: siteUrl },
+  openGraph: {
+    title: siteConfig.pageTitle,
+    description: siteConfig.description,
+    url: siteUrl,
+  },
+};
+
+export default function Home() {
+  const definedTermSchema = {
     "@context": "https://schema.org",
-    "@type": "RealEstateAgent",
-    name: `Dr. Jan Duffy - ${config.neighborhood} Real Estate`,
-    url: `https://${config.domain !== "default" ? config.domain : "heyberkshire.com"}`,
-    telephone: "+17022221964",
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "9406 W Lake Mead Blvd, Suite 100",
-      addressLocality: "Las Vegas",
-      addressRegion: "NV",
-      postalCode: "89134",
-    },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "4.9",
-      reviewCount: "200",
-    },
+    "@type": "DefinedTermSet",
+    name: siteConfig.h1,
+    url: siteUrl,
+    hasDefinedTerm: GLOSSARY_TERMS.map((term) => ({
+      "@type": "DefinedTerm",
+      name: term.term,
+      description: term.shortDefinition,
+      url: `${siteUrl}/glossary/${term.slug}`,
+    })),
   };
 
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(definedTermSchema) }}
       />
       <Navbar />
       <main>
-        {/* Domain-Aware Hero */}
-        <section className="relative bg-slate-900 text-white py-24 md:py-32 overflow-hidden">
-          <div
-            className="absolute inset-0 bg-cover bg-center opacity-30"
-            style={{ backgroundImage: "url('/Image/hero_bg_1.jpg')" }}
-          />
-          <div className="relative z-10 container mx-auto px-4 text-center">
-            {config.ctaBadge && (
-              <span className="inline-block bg-blue-600 text-white text-sm font-semibold px-4 py-1 rounded-full mb-6">
-                {config.ctaBadge}
-              </span>
-            )}
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              {config.heroHeadline}
-            </h1>
-            <p className="text-xl md:text-2xl text-white/80 mb-10 max-w-3xl mx-auto">
-              {config.heroSubheadline}
+        <section className="bg-slate-900 text-white py-16 md:py-24 pt-28 md:pt-32">
+          <div className="container mx-auto px-4 max-w-4xl text-center">
+            <p className="text-blue-300 text-sm font-semibold tracking-wide uppercase mb-4">
+              Nevada real estate glossary
             </p>
-
-            {/* RealScout Search Widget */}
-            <div className="mb-8 flex justify-center">
-              <div
-                dangerouslySetInnerHTML={{
-                  __html: `<realscout-simple-search agent-encoded-id="${config.realscoutAgentId}"></realscout-simple-search>`,
-                }}
-              />
-            </div>
-
-            {/* Trust Indicators */}
-            <div className="flex flex-wrap justify-center gap-6 text-white/80 text-sm">
-              <div className="flex items-center gap-2">
-                <span className="font-semibold text-white">500+</span>
-                <span>Families Helped</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <span className="font-semibold text-white">30+ Years</span>
-                <span>Las Vegas Experience</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <span className="font-semibold text-white">4.9★</span>
-                <span>Client Rating</span>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Value Proposition */}
-        <section className="py-16 md:py-20 bg-white">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
-                Why Work With Dr. Jan Duffy?
-              </h2>
-              <p className="text-lg text-slate-600">
-                Berkshire Hathaway HomeServices Nevada Properties — the most trusted name in Las Vegas real estate.
-              </p>
-            </div>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
-              {[
-                { icon: Shield, title: "Trusted Brand", desc: "Backed by Warren Buffett's Berkshire Hathaway — unmatched integrity" },
-                { icon: Users, title: "50K+ Network", desc: "Global referral network for seamless moves to or from any market" },
-                { icon: TrendingUp, title: "$127M+ Sold", desc: "Proven results across every Las Vegas neighborhood since 2008" },
-                { icon: HomeIcon, title: "Full Service", desc: "Buying, selling, 55+, luxury, investment — one expert handles it all" },
-              ].map(({ icon: Icon, title, desc }) => (
-                <div key={title} className="text-center p-6">
-                  <div className="bg-blue-100 rounded-full p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                    <Icon className="h-8 w-8 text-blue-600" />
-                  </div>
-                  <h3 className="font-bold text-lg mb-2">{title}</h3>
-                  <p className="text-slate-600 text-sm">{desc}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Market Stats */}
-        <section className="py-16 bg-slate-900 text-white">
-          <div className="container mx-auto px-4">
-            <div className="text-center mb-10">
-              <h2 className="text-3xl font-bold mb-3">
-                {config.neighborhood} Real Estate Market
-              </h2>
-              <p className="text-slate-400">Current data — updated regularly</p>
-            </div>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
-              {[
-                { value: "$450K", label: "Median Price", sub: "+4.2% YoY" },
-                { value: "28", label: "Avg Days on Market", sub: "" },
-                { value: "4,850", label: "Active Listings", sub: "" },
-                { value: "2.1", label: "Months Inventory", sub: "" },
-              ].map(({ value, label, sub }) => (
-                <div key={label} className="text-center">
-                  <div className="text-4xl font-bold text-blue-400 mb-1">{value}</div>
-                  <div className="text-slate-300 text-sm">{label}</div>
-                  {sub && <div className="text-green-400 text-xs mt-1">{sub}</div>}
-                </div>
-              ))}
-            </div>
-            <div className="text-center mt-8">
-              <Link href="/market-report" className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md font-semibold transition-colors">
-                Full Market Report
-              </Link>
-            </div>
-          </div>
-        </section>
-
-        <RealScoutListings />
-        <WhyChooseUs />
-        <ReviewsSection />
-        <FAQSection />
-
-        {/* Domain-Specific CTA */}
-        <section className="py-16 md:py-20 bg-blue-600 text-white">
-          <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              {config.ctaHeadline}
-            </h2>
-            <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-              {config.ctaSubheadline}
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">{siteConfig.h1}</h1>
+            <p className="text-lg md:text-xl text-slate-300 mb-8">
+              Plain-language definitions for buyers, sellers, and investors in Las Vegas and
+              statewide—written by {agentInfo.name}, {agentInfo.title}.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="tel:+17022221964"
-                className="inline-flex items-center justify-center bg-white text-blue-600 px-8 py-4 rounded-md font-bold text-lg hover:bg-blue-50 transition-colors"
-              >
-                <Phone className="h-5 w-5 mr-2" />
-                Call 702-222-1964
+            <a
+              href={agentInfo.phoneTel}
+              className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md font-semibold transition-colors"
+            >
+              <Phone className="h-5 w-5" aria-hidden />
+              Call {agentInfo.phone}
+            </a>
+          </div>
+        </section>
+
+        <section className="py-16 bg-white">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <div className="flex items-center gap-2 mb-8">
+              <BookOpen className="h-6 w-6 text-blue-600" aria-hidden />
+              <h2 className="text-2xl font-bold text-slate-900">Browse terms</h2>
+            </div>
+            <ul className="space-y-6">
+              {GLOSSARY_TERMS.map((term) => (
+                <li
+                  key={term.slug}
+                  className="border border-slate-200 rounded-lg p-6 hover:border-blue-300 transition-colors"
+                >
+                  <Link href={`/glossary/${term.slug}`} className="group block">
+                    <h3 className="text-xl font-semibold text-slate-900 group-hover:text-blue-700 mb-2">
+                      {term.term}
+                    </h3>
+                    <p className="text-slate-600">{term.shortDefinition}</p>
+                    <span className="inline-block mt-3 text-blue-600 text-sm font-medium">
+                      Read full definition →
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+
+        <section className="py-14 bg-slate-50 border-t border-slate-200">
+          <div className="container mx-auto px-4 max-w-4xl text-center">
+            <h2 className="text-2xl font-bold text-slate-900 mb-3">Have a specific question?</h2>
+            <p className="text-slate-600 mb-6">
+              Transaction questions with your address and timeline get clearer answers than generic
+              web search.
+            </p>
+            <a
+              href={siteConfig.sisterSite.href}
+              className="inline-flex items-center gap-2 text-blue-700 font-semibold hover:underline"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              {siteConfig.sisterSite.label}
+              <ExternalLink className="h-4 w-4" aria-hidden />
+            </a>
+          </div>
+        </section>
+
+        <section className="py-12 bg-white">
+          <div className="container mx-auto px-4 max-w-3xl text-center text-sm text-slate-600">
+            <p>
+              {agentInfo.name}, {agentInfo.title} · License {agentInfo.license}
+            </p>
+            <p className="mt-2">{officeInfo.address.full}</p>
+            <p className="mt-2">
+              <a href={agentInfo.phoneTel} className="text-blue-700 font-medium">
+                {agentInfo.phone}
               </a>
-              <Link
-                href="/contact"
-                className="inline-block bg-blue-700 hover:bg-blue-800 text-white px-8 py-4 rounded-md font-bold text-lg transition-colors"
-              >
-                Send a Message
-              </Link>
-            </div>
-            <p className="mt-6 text-blue-200 text-sm">
-              Dr. Jan Duffy | License S.0197614.LLC | Berkshire Hathaway HomeServices Nevada Properties
             </p>
           </div>
         </section>
