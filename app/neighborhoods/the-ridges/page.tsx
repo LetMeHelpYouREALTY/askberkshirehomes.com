@@ -6,11 +6,11 @@ import { Phone, Shield, Star, Mountain, Home as HomeIcon } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Berkshire Hathaway HomeServices The Ridges | Las Vegas Luxury Real Estate",
+  title: "The Ridges | Las Vegas Luxury Real Estate",
   description:
-    "Find luxury homes in The Ridges with Berkshire Hathaway HomeServices Nevada Properties. Dr. Jan Duffy specializes in Summerlin's most exclusive guard-gated community. Median price $2.5M. Call (702) 500-1942.",
+    "Find luxury homes in The Ridges with Nevada Properties. Dr. Jan Duffy specializes in Summerlin's most exclusive guard-gated community. Median price $2.5M. Call (702) 842-1192.",
   keywords: [
-    "Berkshire Hathaway HomeServices The Ridges",
+    "The Ridges",
     "The Ridges homes for sale",
     "The Ridges Summerlin",
     "luxury homes Las Vegas",
@@ -48,7 +48,7 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Why use Berkshire Hathaway HomeServices for luxury home purchases?",
+      name: "Why use for luxury home purchases?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "BHHS represents a brand synonymous with trust and discretion—essential in luxury transactions. Our agents like Dr. Jan Duffy have access to off-market listings, understand high-end buyer requirements, and provide the confidentiality luxury clients expect.",
@@ -81,10 +81,10 @@ export default function TheRidgesPage() {
           {/* Hero */}
           <div className="max-w-4xl mx-auto text-center mb-16">
             <div className="inline-block bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-              Berkshire Hathaway HomeServices Nevada Properties
+              Nevada Properties
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
-              Berkshire Hathaway HomeServices The Ridges
+              The Ridges
             </h1>
             <p className="text-xl text-slate-600">
               Las Vegas's most prestigious address. Experience The Ridges luxury with{" "}
@@ -140,7 +140,7 @@ export default function TheRidgesPage() {
                 aesthetic throughout.
               </p>
               <p>
-                <strong>Berkshire Hathaway HomeServices Nevada Properties</strong> has represented buyers
+                <strong>Nevada Properties</strong> has represented buyers
                 and sellers in The Ridges since the community's inception. Dr. Jan Duffy understands that
                 luxury transactions require more than market knowledge—they demand discretion, sophisticated
                 marketing, and access to qualified buyers worldwide. The BHHS global network connects The
@@ -310,7 +310,7 @@ export default function TheRidgesPage() {
                 That's the BHHS difference in high-end transactions."
               </blockquote>
               <cite className="text-slate-900 font-semibold">
-                — Dr. Jan Duffy, Berkshire Hathaway HomeServices Nevada Properties
+                — Dr. Jan Duffy, Nevada Properties
               </cite>
             </div>
           </section>
@@ -353,7 +353,7 @@ export default function TheRidgesPage() {
               </div>
               <div className="bg-white border border-slate-200 rounded-lg p-6">
                 <h3 className="font-bold text-slate-900 mb-2">
-                  Why use Berkshire Hathaway HomeServices for luxury home purchases?
+                  Why use for luxury home purchases?
                 </h3>
                 <p className="text-slate-600">
                   BHHS represents a brand synonymous with trust and discretion—essential in luxury
@@ -374,14 +374,14 @@ export default function TheRidgesPage() {
               in Las Vegas's most prestigious community.
             </p>
             <a
-              href="tel:+17025001942"
+              href="tel:+17028421192"
               className="inline-flex items-center bg-white text-blue-600 px-8 py-4 rounded-md font-bold text-lg hover:bg-blue-50 transition-colors"
             >
               <Phone className="h-5 w-5 mr-2" />
-              Call (702) 500-1942
+              Call (702) 842-1192
             </a>
             <p className="mt-4 text-blue-200 text-sm">
-              Berkshire Hathaway HomeServices Nevada Properties
+              Nevada Properties
             </p>
           </section>
         </div>

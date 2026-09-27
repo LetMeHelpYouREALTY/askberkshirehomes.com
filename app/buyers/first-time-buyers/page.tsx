@@ -19,16 +19,16 @@ import {
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "First-Time Home Buyers Las Vegas | Berkshire Hathaway HomeServices",
+  title: "First-Time Home Buyers Las Vegas",
   description:
-    "First-time buyer in Las Vegas? Down payment assistance, builder incentives, and expert guidance from Dr. Jan Duffy at Berkshire Hathaway HomeServices. Call (702) 500-1942.",
+    "First-time buyer in Las Vegas? Down payment assistance, builder incentives, and expert guidance from Dr. Jan Duffy at Berkshire Hathaway HomeServices. Call (702) 842-1192.",
   keywords: [
     "first time home buyer Las Vegas",
     "first time buyer Nevada",
     "down payment assistance Las Vegas",
     "FHA loans Las Vegas",
     "VA loans Las Vegas",
-    "Berkshire Hathaway HomeServices first time buyer",
+    "first time buyer",
   ],
 };
 
@@ -106,11 +106,11 @@ export default function FirstTimeBuyersPage() {
               Down payment assistance. Builder incentives. Expert guidance every step of the way.
             </p>
             <a
-              href="tel:+17025001942"
+              href="tel:+17028421192"
               className="inline-flex items-center bg-blue-600 text-white px-8 py-4 rounded-md font-bold text-lg hover:bg-blue-700 transition-colors"
             >
               <Phone className="h-5 w-5 mr-2" />
-              Let's Make Homeownership Happen → (702) 500-1942
+              Let's Make Homeownership Happen → (702) 842-1192
             </a>
           </div>
 
@@ -459,7 +459,7 @@ export default function FirstTimeBuyersPage() {
                 </h3>
                 <p className="text-slate-600">
                   No! Buyer's agent services are typically free to buyers—the seller pays the commission.
-                  You get full professional representation from Berkshire Hathaway HomeServices at no
+                  You get full professional representation from at no
                   cost to you.
                 </p>
               </div>
@@ -488,7 +488,7 @@ export default function FirstTimeBuyersPage() {
                 connections that independent agents simply don't have."
               </blockquote>
               <cite className="text-slate-900 font-semibold">
-                — Dr. Jan Duffy, Berkshire Hathaway HomeServices Nevada Properties
+                — Dr. Jan Duffy, Nevada Properties
               </cite>
             </div>
           </section>
@@ -504,11 +504,11 @@ export default function FirstTimeBuyersPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+17025001942"
+                href="tel:+17028421192"
                 className="inline-flex items-center justify-center bg-white text-blue-600 px-8 py-4 rounded-md font-bold text-lg hover:bg-blue-50 transition-colors"
               >
                 <Phone className="h-5 w-5 mr-2" />
-                Call/Text (702) 500-1942
+                Call/Text (702) 842-1192
               </a>
               <Link
                 href="/contact"
@@ -518,7 +518,7 @@ export default function FirstTimeBuyersPage() {
               </Link>
             </div>
             <p className="mt-6 text-blue-200 text-sm">
-              Berkshire Hathaway HomeServices Nevada Properties
+              Nevada Properties
             </p>
           </section>
         </div>

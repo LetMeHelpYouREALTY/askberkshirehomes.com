@@ -5,28 +5,30 @@ import { Phone, Mail, MapPin, Clock, Calendar, CheckCircle, Star, Users, Shield 
 import CalendlyWidget from "@/components/calendly/CalendlyWidget";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/page-metadata";
+import { agentInfo } from "@/lib/site-config";
 
-export const metadata: Metadata = {
-  title: "Contact Dr. Jan Duffy | Berkshire Hathaway HomeServices Las Vegas",
+export const metadata: Metadata = pageMetadata({
+  path: "/contact",
+  title: "Contact Dr. Jan Duffy | Las Vegas REALTOR®",
   description:
-    "Contact Dr. Jan Duffy at Berkshire Hathaway HomeServices Nevada Properties. Schedule an appointment, get directions, or call (702) 500-1942. Las Vegas, Henderson, Summerlin real estate expert.",
+    "Contact Dr. Jan Duffy for Las Vegas, Henderson, and Summerlin real estate. Schedule an appointment or call (702) 842-1192.",
   keywords: [
     "contact real estate agent Las Vegas",
-    "Berkshire Hathaway contact",
     "Dr. Jan Duffy phone",
     "Las Vegas realtor contact",
     "schedule real estate appointment",
   ],
-};
+});
 
 const contactSchema = {
   "@context": "https://schema.org",
   "@type": "ContactPage",
   mainEntity: {
     "@type": "RealEstateAgent",
-    name: "Dr. Jan Duffy - Berkshire Hathaway HomeServices Nevada Properties",
-    telephone: "+17025001942",
-    email: "homes@heyberkshire.com",
+    name: agentInfo.name,
+    telephone: "+17028421192",
+    email: agentInfo.email,
     address: {
       "@type": "PostalAddress",
       streetAddress: "9406 W Lake Mead Blvd, Suite 100",
@@ -51,15 +53,17 @@ export default function ContactPage() {
           {/* Hero */}
           <div className="text-center mb-12">
             <div className="inline-block bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-              Berkshire Hathaway HomeServices Nevada Properties
+              Las Vegas · Henderson · Summerlin
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
               Contact Dr. Jan Duffy
             </h1>
             <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-              Questions about Las Vegas real estate? Your{" "}
-              <strong>Berkshire Hathaway HomeServices</strong> expert is here to help. 
-              Schedule an appointment or reach out directly.
+              Questions about Las Vegas real estate? Schedule an appointment or call{" "}
+              <a href={agentInfo.phoneTel} className="text-blue-700 font-semibold">
+                {agentInfo.phone}
+              </a>
+              .
             </p>
           </div>
 
@@ -69,9 +73,8 @@ export default function ContactPage() {
               <h2 className="text-2xl font-bold text-slate-900 mb-6">Get In Touch</h2>
               <p className="text-slate-700 mb-8">
                 Whether you're buying your first home, selling a luxury property, or exploring
-                investment opportunities, I'm here to provide expert guidance backed by the trusted{" "}
-                <strong>Berkshire Hathaway HomeServices</strong> brand. Serving Las Vegas since 2008 
-                with $127M+ in closed transactions.
+                investment opportunities, I&apos;m here to provide expert guidance. Serving Las Vegas
+                since 2008 with $127M+ in closed transactions.
               </p>
 
               {/* NAP Information */}
@@ -81,10 +84,10 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-slate-900 mb-1">Phone (Call or Text)</h3>
                     <a
-                      href="tel:+17025001942"
+                      href="tel:+17028421192"
                       className="text-2xl font-bold text-blue-600 hover:text-blue-700"
                     >
-                      (702) 500-1942
+                      (702) 842-1192
                     </a>
                     <p className="text-sm text-slate-500 mt-1">
                       Available 7 days a week, 9am-6pm
@@ -97,7 +100,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-slate-900 mb-1">Email</h3>
                     <a
-                      href="mailto:homes@heyberkshire.com"
+                      href={`mailto:${agentInfo.email}`}
                       className="text-blue-600 hover:text-blue-700 font-medium"
                     >
                       Homes@HeyBerkshire.com
@@ -146,7 +149,7 @@ export default function ContactPage() {
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Berkshire Hathaway HomeServices Nevada Properties - Office Location"
+                  title="Nevada Properties - Office Location"
                   className="w-full"
                 />
               </div>
@@ -177,7 +180,7 @@ export default function ContactPage() {
                 <p className="text-sm text-slate-700">
                   <strong>Dr. Jan Duffy, REALTOR®</strong><br />
                   License S.0197614.LLC<br />
-                  Berkshire Hathaway HomeServices Nevada Properties
+                  Nevada Properties
                 </p>
               </div>
             </div>
@@ -262,13 +265,13 @@ export default function ContactPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
               <a
-                href="tel:+17025001942"
+                href="tel:+17028421192"
                 className="flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white p-6 rounded-xl transition-colors"
               >
                 <Phone className="h-8 w-8 mr-4" />
                 <div className="text-left">
                   <div className="font-bold text-lg">Call Now</div>
-                  <div className="text-blue-100">(702) 500-1942</div>
+                  <div className="text-blue-100">(702) 842-1192</div>
                 </div>
               </a>
               <a
@@ -301,7 +304,7 @@ export default function ContactPage() {
                 },
                 {
                   q: "How quickly can you respond to inquiries?",
-                  a: "I typically respond to calls, texts, and emails within 2 hours during business hours (9am-6pm daily). For urgent matters, calling or texting (702) 500-1942 is the fastest way to reach me.",
+                  a: "I typically respond to calls, texts, and emails within 2 hours during business hours (9am-6pm daily). For urgent matters, calling or texting (702) 842-1192 is the fastest way to reach me.",
                 },
                 {
                   q: "Do you charge for consultations?",

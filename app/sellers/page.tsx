@@ -20,9 +20,9 @@ import {
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sell Your Las Vegas Home | Berkshire Hathaway HomeServices",
+  title: "Sell Your Las Vegas Home",
   description:
-    "Sell your Las Vegas or Henderson home for top dollar with Dr. Jan Duffy at Berkshire Hathaway HomeServices Nevada Properties. Free home valuation. World-class marketing. Call (702) 500-1942.",
+    "Sell your Las Vegas or Henderson home for top dollar with Dr. Jan Duffy at Nevada Properties. Free home valuation. World-class marketing. Call (702) 842-1192.",
   keywords: [
     "sell home Las Vegas",
     "Las Vegas listing agent",
@@ -40,8 +40,8 @@ const sellerSchema = {
   name: "Home Selling Services Las Vegas",
   provider: {
     "@type": "RealEstateAgent",
-    name: "Dr. Jan Duffy - Berkshire Hathaway HomeServices Nevada Properties",
-    telephone: "+17025001942",
+    name: "Dr. Jan Duffy - Nevada Properties",
+    telephone: "+17028421192",
   },
   areaServed: "Las Vegas, Henderson, Summerlin, Clark County NV",
   serviceType: "Seller Representation",
@@ -135,7 +135,7 @@ export default function SellersPage() {
           {/* Hero */}
           <div className="max-w-4xl mx-auto text-center mb-16">
             <div className="inline-block bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-              Berkshire Hathaway HomeServices Nevada Properties
+              Nevada Properties
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
               Sell Your Las Vegas Home for Top Dollar
@@ -186,11 +186,11 @@ export default function SellersPage() {
           {/* Benefits */}
           <section className="mb-16 max-w-6xl mx-auto">
             <h2 className="text-3xl font-bold text-slate-900 mb-4 text-center">
-              The Berkshire Hathaway HomeServices Selling Advantage
+              The Selling Advantage
             </h2>
             <p className="text-slate-600 text-center max-w-3xl mx-auto mb-8">
               Not all real estate agents can deliver the same results. When you choose a 
-              Berkshire Hathaway HomeServices agent, you're choosing world-class marketing, 
+              agent, you're choosing world-class marketing, 
               a global network of buyers, and the most trusted name in real estate.
             </p>
             <div className="grid md:grid-cols-2 gap-8">
@@ -426,11 +426,11 @@ export default function SellersPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+17025001942"
+                href="tel:+17028421192"
                 className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-md font-bold text-lg transition-colors"
               >
                 <Phone className="h-5 w-5 mr-2" />
-                Call (702) 500-1942
+                Call (702) 842-1192
               </a>
               <Link
                 href="/contact"
@@ -440,7 +440,7 @@ export default function SellersPage() {
               </Link>
             </div>
             <p className="mt-4 text-slate-400 text-sm">
-              Berkshire Hathaway HomeServices Nevada Properties
+              Nevada Properties
             </p>
           </section>
         </div>

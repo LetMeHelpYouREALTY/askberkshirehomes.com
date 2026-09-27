@@ -12,18 +12,20 @@ import {
   combineSchemas,
 } from "@/lib/schema";
 
-export const metadata: Metadata = {
-  title: "FAQ | Berkshire Hathaway HomeServices Las Vegas Real Estate",
+import { pageMetadata } from "@/lib/page-metadata";
+
+export const metadata: Metadata = pageMetadata({
+  path: "/faq",
+  title: "Las Vegas Real Estate FAQ",
   description:
-    "Frequently asked questions about Las Vegas real estate, Berkshire Hathaway HomeServices, buying, selling, and working with Dr. Jan Duffy at BHHS Nevada Properties.",
+    "Frequently asked questions about Las Vegas real estate, buying, selling, and working with Dr. Jan Duffy, REALTOR®.",
   keywords: [
-    "Berkshire Hathaway HomeServices FAQ",
+    "FAQ",
     "Las Vegas real estate questions",
     "buying a home Las Vegas",
     "selling a home Henderson",
-    "BHHS agent questions",
   ],
-};
+});
 
 // Breadcrumb items
 const breadcrumbs = [
@@ -36,12 +38,12 @@ const faqCategories = [
     title: "About Berkshire Hathaway HomeServices",
     faqs: [
       {
-        q: "Why should I choose a Berkshire Hathaway HomeServices agent?",
-        a: "Berkshire Hathaway HomeServices is the only real estate brand backed by Warren Buffett's Berkshire Hathaway Inc. This means unmatched financial stability, ethical standards, and a global referral network of 50,000+ agents. When you're making the biggest purchase of your life, that trust matters.",
+        q: "Why should I choose a agent?",
+        a: "is the only real estate brand backed by Warren Buffett's Berkshire Hathaway Inc. This means unmatched financial stability, ethical standards, and a global referral network of 50,000+ agents. When you're making the biggest purchase of your life, that trust matters.",
       },
       {
-        q: "Is Berkshire Hathaway HomeServices owned by Warren Buffett?",
-        a: "Berkshire Hathaway HomeServices is part of HSF Affiliates LLC, a joint venture of Berkshire Hathaway Inc. (Warren Buffett's company) and HomeServices of America. The brand carries the trusted Berkshire Hathaway name and upholds its values.",
+        q: "Is owned by Warren Buffett?",
+        a: "is part of HSF Affiliates LLC, a joint venture of Berkshire Hathaway Inc. (Warren Buffett's company) and HomeServices of America. The brand carries the trusted Berkshire Hathaway name and upholds its values.",
       },
       {
         q: "What areas does BHHS Nevada Properties serve?",
@@ -146,7 +148,7 @@ const faqCategories = [
       },
       {
         q: "How do I contact Dr. Jan Duffy?",
-        a: "Call or text (702) 500-1942 or email homes@heyberkshire.com. Office located at 9406 W Lake Mead Blvd, Suite 100, Las Vegas, NV 89134.",
+        a: "Call or text (702) 842-1192 or email homes@heyberkshire.com. Office located at 9406 W Lake Mead Blvd, Suite 100, Las Vegas, NV 89134.",
       },
       {
         q: "What areas does Dr. Jan cover?",
@@ -168,9 +170,9 @@ const allFaqs = faqCategories.flatMap((category) =>
 const pageSchemas = combineSchemas(
   generateBreadcrumbSchema(breadcrumbs),
   generateWebPageSchema({
-    name: "Frequently Asked Questions | Berkshire Hathaway HomeServices Las Vegas",
+    name: "Frequently Asked Questions",
     description:
-      "Comprehensive FAQ about Las Vegas real estate, buying, selling, investing, and working with Dr. Jan Duffy at Berkshire Hathaway HomeServices Nevada Properties.",
+      "Comprehensive FAQ about Las Vegas real estate, buying, selling, investing, and working with Dr. Jan Duffy at Nevada Properties.",
     url: "/faq",
     dateModified: "2026-01-25",
   }),
@@ -188,7 +190,7 @@ export default function FAQPage() {
           {/* Hero */}
           <div className="max-w-4xl mx-auto text-center mb-16">
             <div className="inline-block bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-              Berkshire Hathaway HomeServices Nevada Properties
+              Nevada Properties
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
               Frequently Asked Questions
@@ -226,14 +228,14 @@ export default function FAQPage() {
               with Berkshire Hathaway HomeServices.
             </p>
             <a
-              href="tel:+17025001942"
+              href="tel:+17028421192"
               className="inline-flex items-center bg-white text-blue-600 px-8 py-4 rounded-md font-bold text-lg hover:bg-blue-50 transition-colors"
             >
               <Phone className="h-5 w-5 mr-2" />
-              Call (702) 500-1942
+              Call (702) 842-1192
             </a>
             <p className="mt-4 text-blue-200 text-sm">
-              Berkshire Hathaway HomeServices Nevada Properties
+              Nevada Properties
             </p>
           </section>
         </div>

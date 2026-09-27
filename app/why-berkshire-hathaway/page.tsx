@@ -6,9 +6,9 @@ import { Shield, Users, Globe, Award, TrendingUp, CheckCircle, Phone } from "luc
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Why Choose Berkshire Hathaway HomeServices | Las Vegas Real Estate",
+  title: "Why Choose Las Vegas Real Estate",
   description:
-    "Discover why Berkshire Hathaway HomeServices is the most trusted name in real estate. Backed by Warren Buffett, with 50,000+ agents worldwide. Work with BHHS Nevada Properties today.",
+    "Discover why is the most trusted name in real estate. Backed by Warren Buffett, with 50,000+ agents worldwide. Work with BHHS Nevada Properties today.",
   keywords: [
     "Berkshire Hathaway HomeServices",
     "why choose BHHS",
@@ -26,7 +26,7 @@ const organizationSchema = {
   url: "https://www.bhhs.com",
   logo: "https://heyberkshire.com/favicon-32x32.png",
   description:
-    "Berkshire Hathaway HomeServices is a real estate brokerage network, part of Berkshire Hathaway Inc., one of the world's most respected and trusted companies.",
+    "is a real estate brokerage network, part of Berkshire Hathaway Inc., one of the world's most respected and trusted companies.",
   parentOrganization: {
     "@type": "Corporation",
     name: "Berkshire Hathaway Inc.",
@@ -164,7 +164,7 @@ export default function WhyBerkshireHathawayPage() {
           {/* Stats Section */}
           <section className="mb-16 bg-blue-600 text-white rounded-2xl p-8 md:p-12 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-8 text-center">
-              Berkshire Hathaway HomeServices By The Numbers
+              By The Numbers
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               <div className="text-center">
@@ -222,7 +222,7 @@ export default function WhyBerkshireHathawayPage() {
               </div>
               <div className="bg-slate-100 rounded-lg p-8">
                 <blockquote className="text-lg text-slate-700 italic mb-4">
-                  "When clients ask why they should choose a Berkshire Hathaway HomeServices agent,
+                  "When clients ask why they should choose a agent,
                   I tell them: you're not just getting me—you're getting a global network of 50,000
                   agents, world-class marketing, and a brand that's synonymous with trust."
                 </blockquote>
@@ -241,8 +241,8 @@ export default function WhyBerkshireHathawayPage() {
             <div className="space-y-4">
               {[
                 {
-                  q: "Is Berkshire Hathaway HomeServices owned by Warren Buffett?",
-                  a: "Berkshire Hathaway HomeServices is part of HSF Affiliates LLC, which is a joint venture of Berkshire Hathaway Inc. (Warren Buffett's company) and HomeServices of America. The brand carries the trusted Berkshire Hathaway name and upholds its values of integrity and excellence.",
+                  q: "Is owned by Warren Buffett?",
+                  a: "is part of HSF Affiliates LLC, which is a joint venture of Berkshire Hathaway Inc. (Warren Buffett's company) and HomeServices of America. The brand carries the trusted Berkshire Hathaway name and upholds its values of integrity and excellence.",
                 },
                 {
                   q: "What makes BHHS different from other real estate companies?",
@@ -274,14 +274,14 @@ export default function WhyBerkshireHathawayPage() {
               Ready to work with the most trusted name in real estate? Contact Dr. Jan Duffy today.
             </p>
             <a
-              href="tel:+17025001942"
+              href="tel:+17028421192"
               className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-md font-bold text-lg transition-colors"
             >
               <Phone className="h-5 w-5 mr-2" />
-              Call (702) 500-1942
+              Call (702) 842-1192
             </a>
             <p className="mt-4 text-slate-400 text-sm">
-              Berkshire Hathaway HomeServices Nevada Properties
+              Nevada Properties
             </p>
           </section>
         </div>

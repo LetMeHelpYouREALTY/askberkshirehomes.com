@@ -6,11 +6,11 @@ import { Phone, DollarSign, TrendingUp, Home as HomeIcon, Users } from "lucide-r
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Berkshire Hathaway HomeServices North Las Vegas | Affordable Homes",
+  title: "North Las Vegas | Affordable Homes",
   description:
-    "Find affordable North Las Vegas homes with Berkshire Hathaway HomeServices Nevada Properties. Dr. Jan Duffy helps first-time buyers and investors. Median price $385K. Call (702) 500-1942.",
+    "Find affordable North Las Vegas homes with Nevada Properties. Dr. Jan Duffy helps first-time buyers and investors. Median price $385K. Call (702) 842-1192.",
   keywords: [
-    "Berkshire Hathaway HomeServices North Las Vegas",
+    "North Las Vegas",
     "North Las Vegas homes for sale",
     "affordable homes Las Vegas",
     "first time home buyer Las Vegas",
@@ -48,7 +48,7 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Why choose Berkshire Hathaway HomeServices for North Las Vegas?",
+      name: "Why choose for North Las Vegas?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "BHHS provides expert guidance for first-time buyers navigating the purchase process, plus free representation on new construction purchases. Dr. Jan Duffy helps clients find value while avoiding common pitfalls in emerging neighborhoods.",
@@ -81,10 +81,10 @@ export default function NorthLasVegasPage() {
           {/* Hero */}
           <div className="max-w-4xl mx-auto text-center mb-16">
             <div className="inline-block bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-              Berkshire Hathaway HomeServices Nevada Properties
+              Nevada Properties
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
-              Berkshire Hathaway HomeServices North Las Vegas
+              North Las Vegas
             </h1>
             <p className="text-xl text-slate-600">
               Affordable homeownership and investment opportunities. Find your North Las Vegas
@@ -140,7 +140,7 @@ export default function NorthLasVegasPage() {
                 state income tax, more of their income goes toward building equity.
               </p>
               <p>
-                <strong>Berkshire Hathaway HomeServices Nevada Properties</strong> provides the same
+                <strong>Nevada Properties</strong> provides the same
                 expert service in North Las Vegas as we do in the valley's luxury markets. Dr. Jan Duffy
                 helps first-time buyers understand the purchase process, navigate financing options, and
                 avoid common pitfalls. For new construction—where builders' sales agents represent the
@@ -314,7 +314,7 @@ export default function NorthLasVegasPage() {
                 Hathaway HomeServices agent, my job is to find the right fit—not the highest price."
               </blockquote>
               <cite className="text-slate-900 font-semibold">
-                — Dr. Jan Duffy, Berkshire Hathaway HomeServices Nevada Properties
+                — Dr. Jan Duffy, Nevada Properties
               </cite>
             </div>
           </section>
@@ -357,7 +357,7 @@ export default function NorthLasVegasPage() {
               </div>
               <div className="bg-white border border-slate-200 rounded-lg p-6">
                 <h3 className="font-bold text-slate-900 mb-2">
-                  Why choose Berkshire Hathaway HomeServices for North Las Vegas?
+                  Why choose for North Las Vegas?
                 </h3>
                 <p className="text-slate-600">
                   BHHS provides expert guidance for first-time buyers navigating the purchase process,
@@ -374,18 +374,18 @@ export default function NorthLasVegasPage() {
               Start Your Homeownership Journey
             </h2>
             <p className="text-xl text-blue-100 mb-8">
-              Contact Dr. Jan Duffy, your Berkshire Hathaway HomeServices North Las Vegas expert,
+              Contact Dr. Jan Duffy, your North Las Vegas expert,
               for guidance on finding affordable homes that fit your budget.
             </p>
             <a
-              href="tel:+17025001942"
+              href="tel:+17028421192"
               className="inline-flex items-center bg-white text-blue-600 px-8 py-4 rounded-md font-bold text-lg hover:bg-blue-50 transition-colors"
             >
               <Phone className="h-5 w-5 mr-2" />
-              Call (702) 500-1942
+              Call (702) 842-1192
             </a>
             <p className="mt-4 text-blue-200 text-sm">
-              Berkshire Hathaway HomeServices Nevada Properties
+              Nevada Properties
             </p>
           </section>
         </div>

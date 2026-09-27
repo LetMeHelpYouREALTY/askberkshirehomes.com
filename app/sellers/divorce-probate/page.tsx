@@ -16,15 +16,15 @@ import {
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Divorce & Probate Home Sales Las Vegas | Berkshire Hathaway HomeServices",
+  title: "Divorce & Probate Home Sales Las Vegas",
   description:
-    "Sensitive real estate situations handled with discretion. Dr. Jan Duffy helps with divorce sales, probate, estate liquidation, and court-ordered sales. Call (702) 500-1942.",
+    "Sensitive real estate situations handled with discretion. Dr. Jan Duffy helps with divorce sales, probate, estate liquidation, and court-ordered sales. Call (702) 842-1192.",
   keywords: [
     "divorce home sale Las Vegas",
     "probate real estate Las Vegas",
     "estate sale Las Vegas",
     "court ordered sale Nevada",
-    "Berkshire Hathaway HomeServices divorce",
+    "divorce",
   ],
 };
 
@@ -59,11 +59,11 @@ export default function DivorceProbatePage() {
               with discretion, expertise, and compassion.
             </p>
             <a
-              href="tel:+17025001942"
+              href="tel:+17028421192"
               className="inline-flex items-center bg-blue-600 text-white px-8 py-4 rounded-md font-bold text-lg hover:bg-blue-700 transition-colors"
             >
               <Phone className="h-5 w-5 mr-2" />
-              Confidential Consultation → (702) 500-1942
+              Confidential Consultation → (702) 842-1192
             </a>
           </div>
 
@@ -448,7 +448,7 @@ export default function DivorceProbatePage() {
           {/* Why BHHS Matters */}
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">
-              Why Berkshire Hathaway HomeServices for Sensitive Sales
+              Why for Sensitive Sales
             </h2>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="bg-white border border-slate-200 rounded-xl p-6 text-center">
@@ -492,7 +492,7 @@ export default function DivorceProbatePage() {
                 peace of mind come first."
               </blockquote>
               <cite className="text-slate-300 font-semibold">
-                — Dr. Jan Duffy, Berkshire Hathaway HomeServices Nevada Properties
+                — Dr. Jan Duffy, Nevada Properties
               </cite>
             </div>
           </section>
@@ -508,11 +508,11 @@ export default function DivorceProbatePage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+17025001942"
+                href="tel:+17028421192"
                 className="inline-flex items-center justify-center bg-white text-slate-900 px-8 py-4 rounded-md font-bold text-lg hover:bg-slate-100 transition-colors"
               >
                 <Phone className="h-5 w-5 mr-2" />
-                Call (702) 500-1942
+                Call (702) 842-1192
               </a>
               <Link
                 href="/contact"

@@ -6,11 +6,11 @@ import { Phone, Mountain, TreePine, DollarSign, Home as HomeIcon } from "lucide-
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Berkshire Hathaway HomeServices Mountains Edge | Southwest Las Vegas",
+  title: "Mountains Edge | Southwest Las Vegas",
   description:
-    "Find Mountains Edge homes with Berkshire Hathaway HomeServices Nevada Properties. Dr. Jan Duffy specializes in this southwest Las Vegas community. Median price $475K. Call (702) 500-1942.",
+    "Find Mountains Edge homes with Nevada Properties. Dr. Jan Duffy specializes in this southwest Las Vegas community. Median price $475K. Call (702) 842-1192.",
   keywords: [
-    "Berkshire Hathaway HomeServices Mountains Edge",
+    "Mountains Edge",
     "Mountains Edge homes for sale",
     "Mountains Edge Las Vegas",
     "southwest Las Vegas homes",
@@ -81,10 +81,10 @@ export default function MountainsEdgePage() {
           {/* Hero */}
           <div className="max-w-4xl mx-auto text-center mb-16">
             <div className="inline-block bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-              Berkshire Hathaway HomeServices Nevada Properties
+              Nevada Properties
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
-              Berkshire Hathaway HomeServices Mountains Edge
+              Mountains Edge
             </h1>
             <p className="text-xl text-slate-600">
               Affordable luxury in southwest Las Vegas. Find your Mountains Edge home with{" "}
@@ -140,7 +140,7 @@ export default function MountainsEdgePage() {
                 to Southern Nevada's natural beauty.
               </p>
               <p>
-                <strong>Berkshire Hathaway HomeServices Nevada Properties</strong> serves Mountains
+                <strong>Nevada Properties</strong> serves Mountains
                 Edge buyers with the same commitment to excellence we bring to the valley's luxury
                 markets. Dr. Jan Duffy understands that value doesn't mean compromise—it means
                 finding the right home at the right price. For families priced out of Summerlin
@@ -306,11 +306,11 @@ export default function MountainsEdgePage() {
               <blockquote className="text-lg text-slate-700 italic mb-4">
                 "Mountains Edge is where I send buyers who want master-planned living without the
                 Summerlin price tag. The park is incredible, the homes are modern, and the value
-                is undeniable. As a Berkshire Hathaway HomeServices agent, I help clients see
+                is undeniable. As a agent, I help clients see
                 that finding the right home isn't about spending the most—it's about spending wisely."
               </blockquote>
               <cite className="text-slate-900 font-semibold">
-                — Dr. Jan Duffy, Berkshire Hathaway HomeServices Nevada Properties
+                — Dr. Jan Duffy, Nevada Properties
               </cite>
             </div>
           </section>
@@ -371,18 +371,18 @@ export default function MountainsEdgePage() {
               Discover Mountains Edge Value
             </h2>
             <p className="text-xl text-blue-100 mb-8">
-              Contact Dr. Jan Duffy, your Berkshire Hathaway HomeServices Mountains Edge specialist,
+              Contact Dr. Jan Duffy, your Mountains Edge specialist,
               for expert guidance in finding exceptional value in southwest Las Vegas.
             </p>
             <a
-              href="tel:+17025001942"
+              href="tel:+17028421192"
               className="inline-flex items-center bg-white text-blue-600 px-8 py-4 rounded-md font-bold text-lg hover:bg-blue-50 transition-colors"
             >
               <Phone className="h-5 w-5 mr-2" />
-              Call (702) 500-1942
+              Call (702) 842-1192
             </a>
             <p className="mt-4 text-blue-200 text-sm">
-              Berkshire Hathaway HomeServices Nevada Properties
+              Nevada Properties
             </p>
           </section>
         </div>
