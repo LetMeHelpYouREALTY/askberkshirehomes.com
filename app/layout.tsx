@@ -1,31 +1,68 @@
 import type { Metadata } from "next";
 import { GeistSans } from "geist/font/sans";
 import "./globals.css";
-import { headers } from "next/headers";
-import { getDomainConfig } from "@/lib/domain-config";
 import { Analytics } from "@vercel/analytics/react";
 import Script from "next/script";
+import { agentInfo, officeInfo, siteConfig } from "@/lib/site-config";
+import { getSiteUrl } from "@/lib/site-url";
 
-export async function generateMetadata(): Promise<Metadata> {
-  const domain = headers().get("x-domain") || "";
-  const config = getDomainConfig(domain);
-  return {
-    title: `${config.neighborhood} | Dr. Jan Duffy, REALTOR® | BHHS Nevada`,
-    description: config.description,
-    keywords: config.keywords,
-    openGraph: {
-      title: config.heroHeadline,
-      description: config.description,
-      type: "website",
-    },
-  };
-}
+const siteUrl = getSiteUrl();
+
+export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: siteConfig.pageTitle,
+    template: "%s | Nevada Real Estate Glossary",
+  },
+  description: siteConfig.description,
+  keywords: [
+    "Nevada real estate glossary",
+    "Las Vegas real estate terms",
+    "what is an SID assessment Nevada",
+    "Nevada seller real property disclosure explained",
+  ],
+  alternates: {
+    canonical: siteUrl,
+  },
+  openGraph: {
+    title: siteConfig.pageTitle,
+    description: siteConfig.description,
+    url: siteUrl,
+    siteName: siteConfig.name,
+    type: "website",
+    locale: "en_US",
+  },
+};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "RealEstateAgent",
+    name: agentInfo.name,
+    url: siteUrl,
+    telephone: "+17028421192",
+    email: agentInfo.email,
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: officeInfo.address.street,
+      addressLocality: officeInfo.address.city,
+      addressRegion: officeInfo.address.state,
+      postalCode: officeInfo.address.zip,
+      addressCountry: "US",
+    },
+    memberOf: {
+      "@type": "Organization",
+      name: agentInfo.brokerage,
+    },
+  };
+
   return (
     <html lang="en" className={GeistSans.className}>
       <head>
-        {/* WidgetTracker */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+        />
         <Script id="widget-tracker" strategy="afterInteractive">{`
           (function(w,i,d,g,e,t){w["WidgetTrackerObject"]=g;(w[g]=w[g]||function()
           {(w[g].q=w[g].q||[]).push(arguments);}),(w[g].ds=1*new Date());(e="script"),
