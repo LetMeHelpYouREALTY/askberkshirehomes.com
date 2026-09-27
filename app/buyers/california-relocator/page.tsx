@@ -19,16 +19,16 @@ import {
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Relocating from California to Las Vegas | Berkshire Hathaway HomeServices",
+  title: "Relocating from California to Las Vegas",
   description:
-    "Moving from California to Las Vegas? Zero state income tax, 40-60% lower home prices, same sunshine. Dr. Jan Duffy helps CA relocators find their perfect Las Vegas home. Call (702) 500-1942.",
+    "Moving from California to Las Vegas? Zero state income tax, 40-60% lower home prices, same sunshine. Dr. Jan Duffy helps CA relocators find their perfect Las Vegas home. Call (702) 842-1192.",
   keywords: [
     "California to Las Vegas relocation",
     "moving from California to Nevada",
     "California relocator Las Vegas",
     "no state income tax Nevada",
     "Las Vegas homes California buyers",
-    "Berkshire Hathaway HomeServices relocation",
+    "relocation",
   ],
 };
 
@@ -82,8 +82,8 @@ const faqSchema = {
 const realEstateAgentSchema = {
   "@context": "https://schema.org",
   "@type": "RealEstateAgent",
-  name: "Dr. Jan Duffy - Berkshire Hathaway HomeServices Nevada Properties",
-  telephone: "+17025001942",
+  name: "Dr. Jan Duffy - Nevada Properties",
+  telephone: "+17028421192",
   url: "https://heyberkshire.com/buyers/california-relocator",
   address: {
     "@type": "PostalAddress",
@@ -135,11 +135,11 @@ export default function CaliforniaRelocatorPage() {
               Zero state income tax. 40-60% lower home prices. Same sunshine.
             </p>
             <a
-              href="tel:+17025001942"
+              href="tel:+17028421192"
               className="inline-flex items-center bg-blue-600 text-white px-8 py-4 rounded-md font-bold text-lg hover:bg-blue-700 transition-colors"
             >
               <Phone className="h-5 w-5 mr-2" />
-              Start Your Tax-Free Life → (702) 500-1942
+              Start Your Tax-Free Life → (702) 842-1192
             </a>
           </div>
 
@@ -454,7 +454,7 @@ export default function CaliforniaRelocatorPage() {
                 out alone."
               </blockquote>
               <cite className="text-slate-900 font-semibold">
-                — Dr. Jan Duffy, Berkshire Hathaway HomeServices Nevada Properties
+                — Dr. Jan Duffy, Nevada Properties
               </cite>
             </div>
           </section>
@@ -470,11 +470,11 @@ export default function CaliforniaRelocatorPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+17025001942"
+                href="tel:+17028421192"
                 className="inline-flex items-center justify-center bg-white text-blue-600 px-8 py-4 rounded-md font-bold text-lg hover:bg-blue-50 transition-colors"
               >
                 <Phone className="h-5 w-5 mr-2" />
-                Call/Text (702) 500-1942
+                Call/Text (702) 842-1192
               </a>
               <Link
                 href="/contact"
@@ -484,7 +484,7 @@ export default function CaliforniaRelocatorPage() {
               </Link>
             </div>
             <p className="mt-6 text-blue-200 text-sm">
-              Berkshire Hathaway HomeServices Nevada Properties
+              Nevada Properties
             </p>
           </section>
         </div>

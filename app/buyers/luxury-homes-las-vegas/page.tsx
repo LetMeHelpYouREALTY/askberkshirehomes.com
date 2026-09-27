@@ -18,9 +18,9 @@ import {
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Luxury Homes Las Vegas | Berkshire Hathaway HomeServices",
+  title: "Luxury Homes Las Vegas",
   description:
-    "Las Vegas luxury real estate from $1.2M to $10M+. Guard-gated estates, Strip penthouses, and custom homes. Dr. Jan Duffy provides discrete, expert representation. Call (702) 500-1942.",
+    "Las Vegas luxury real estate from $1.2M to $10M+. Guard-gated estates, Strip penthouses, and custom homes. Dr. Jan Duffy provides discrete, expert representation. Call (702) 842-1192.",
   keywords: [
     "luxury homes Las Vegas",
     "The Ridges Las Vegas",
@@ -56,7 +56,7 @@ const faqSchema = {
       name: "Do luxury buyers need representation?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Absolutely. Luxury transactions involve complex negotiations, privacy concerns, and significant financial exposure. One wrong move can cost hundreds of thousands. Berkshire Hathaway HomeServices provides discrete, sophisticated representation for discerning buyers.",
+        text: "Absolutely. Luxury transactions involve complex negotiations, privacy concerns, and significant financial exposure. One wrong move can cost hundreds of thousands. provides discrete, sophisticated representation for discerning buyers.",
       },
     },
   ],
@@ -96,11 +96,11 @@ export default function LuxuryHomesPage() {
               Guard-gated estates. Strip penthouses. Uncompromising privacy.
             </p>
             <a
-              href="tel:+17025001942"
+              href="tel:+17028421192"
               className="inline-flex items-center bg-slate-900 text-white px-8 py-4 rounded-md font-bold text-lg hover:bg-slate-800 transition-colors"
             >
               <Phone className="h-5 w-5 mr-2" />
-              Schedule a Private Preview → (702) 500-1942
+              Schedule a Private Preview → (702) 842-1192
             </a>
           </div>
 
@@ -375,7 +375,7 @@ export default function LuxuryHomesPage() {
                 provides the global resources and credibility that luxury transactions demand."
               </blockquote>
               <cite className="text-slate-300 font-semibold">
-                — Dr. Jan Duffy, Berkshire Hathaway HomeServices Nevada Properties
+                — Dr. Jan Duffy, Nevada Properties
               </cite>
             </div>
           </section>
@@ -391,11 +391,11 @@ export default function LuxuryHomesPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+17025001942"
+                href="tel:+17028421192"
                 className="inline-flex items-center justify-center bg-white text-slate-900 px-8 py-4 rounded-md font-bold text-lg hover:bg-slate-100 transition-colors"
               >
                 <Phone className="h-5 w-5 mr-2" />
-                (702) 500-1942
+                (702) 842-1192
               </a>
               <Link
                 href="/contact"
@@ -405,7 +405,7 @@ export default function LuxuryHomesPage() {
               </Link>
             </div>
             <p className="mt-6 text-slate-400 text-sm">
-              Berkshire Hathaway HomeServices Nevada Properties
+              Nevada Properties
             </p>
           </section>
         </div>

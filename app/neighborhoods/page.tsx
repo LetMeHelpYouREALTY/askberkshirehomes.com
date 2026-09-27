@@ -6,9 +6,9 @@ import { MapPin, Phone, Home, Users, GraduationCap } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Las Vegas Neighborhoods | Berkshire Hathaway HomeServices",
+  title: "Las Vegas Neighborhoods",
   description:
-    "Explore Las Vegas and Henderson neighborhoods with Dr. Jan Duffy at Berkshire Hathaway HomeServices Nevada Properties. Summerlin, Henderson, The Ridges, Southern Highlands & more.",
+    "Explore Las Vegas and Henderson neighborhoods with Dr. Jan Duffy at Nevada Properties. Summerlin, Henderson, The Ridges, Southern Highlands & more.",
   keywords: [
     "Las Vegas neighborhoods",
     "Henderson communities",
@@ -120,7 +120,7 @@ export default function NeighborhoodsPage() {
           {/* Hero */}
           <div className="max-w-4xl mx-auto text-center mb-16">
             <div className="inline-block bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-              Berkshire Hathaway HomeServices Nevada Properties
+              Nevada Properties
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
               Las Vegas & Henderson Neighborhoods
@@ -175,7 +175,7 @@ export default function NeighborhoodsPage() {
                 "Every Las Vegas neighborhood has its own personality. Whether you want the
                 family-friendly parks of Summerlin, the established charm of Green Valley, or the
                 luxury of The Ridges, I'll help you find the community that matches your lifestyle.
-                That's the Berkshire Hathaway HomeServices difference—personalized guidance backed
+                That's the difference—personalized guidance backed
                 by local expertise."
               </blockquote>
               <cite className="text-slate-900 font-semibold">
@@ -222,14 +222,14 @@ export default function NeighborhoodsPage() {
               neighborhood recommendations.
             </p>
             <a
-              href="tel:+17025001942"
+              href="tel:+17028421192"
               className="inline-flex items-center bg-white text-blue-600 px-8 py-4 rounded-md font-bold text-lg hover:bg-blue-50 transition-colors"
             >
               <Phone className="h-5 w-5 mr-2" />
-              Call (702) 500-1942
+              Call (702) 842-1192
             </a>
             <p className="mt-4 text-blue-200 text-sm">
-              Berkshire Hathaway HomeServices Nevada Properties
+              Nevada Properties
             </p>
           </section>
         </div>

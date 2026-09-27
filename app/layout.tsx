@@ -1,40 +1,48 @@
 import type { Metadata } from "next";
 import { GeistSans } from "geist/font/sans";
 import "./globals.css";
+import { headers } from "next/headers";
 import { Analytics } from "@vercel/analytics/react";
 import Script from "next/script";
 import { agentInfo, officeInfo, siteConfig } from "@/lib/site-config";
+import { canonicalForPath } from "@/lib/page-metadata";
 import { getSiteUrl } from "@/lib/site-url";
 
-const siteUrl = getSiteUrl();
+export async function generateMetadata(): Promise<Metadata> {
+  const headersList = headers();
+  const pathname = headersList.get("x-pathname") || "/";
+  const siteUrl = getSiteUrl();
+  const canonical = canonicalForPath(pathname);
 
-export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
-  title: {
-    default: siteConfig.pageTitle,
-    template: "%s | Nevada Real Estate Glossary",
-  },
-  description: siteConfig.description,
-  keywords: [
-    "Nevada real estate glossary",
-    "Las Vegas real estate terms",
-    "what is an SID assessment Nevada",
-    "Nevada seller real property disclosure explained",
-  ],
-  alternates: {
-    canonical: siteUrl,
-  },
-  openGraph: {
-    title: siteConfig.pageTitle,
+  return {
+    metadataBase: new URL(siteUrl),
+    title: {
+      default: siteConfig.pageTitle,
+      template: "%s | Nevada Real Estate Glossary",
+    },
     description: siteConfig.description,
-    url: siteUrl,
-    siteName: siteConfig.name,
-    type: "website",
-    locale: "en_US",
-  },
-};
+    keywords: [
+      "Nevada real estate glossary",
+      "Las Vegas real estate terms",
+      "what is an SID assessment Nevada",
+      "Nevada seller real property disclosure explained",
+    ],
+    alternates: {
+      canonical,
+    },
+    openGraph: {
+      title: siteConfig.pageTitle,
+      description: siteConfig.description,
+      url: canonical,
+      siteName: siteConfig.name,
+      type: "website",
+      locale: "en_US",
+    },
+  };
+}
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const siteUrl = getSiteUrl();
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "RealEstateAgent",

@@ -21,9 +21,9 @@ import {
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Relocating to Las Vegas | Berkshire Hathaway HomeServices",
+  title: "Relocating to Las Vegas",
   description:
-    "Moving to Las Vegas? Dr. Jan Duffy at Berkshire Hathaway HomeServices Nevada Properties provides comprehensive relocation services. Schools, neighborhoods, cost of living. Call (702) 500-1942.",
+    "Moving to Las Vegas? Dr. Jan Duffy at Nevada Properties provides comprehensive relocation services. Schools, neighborhoods, cost of living. Call (702) 842-1192.",
   keywords: [
     "relocating to Las Vegas",
     "moving to Las Vegas",
@@ -42,8 +42,8 @@ const relocationSchema = {
   name: "Las Vegas Relocation Services",
   provider: {
     "@type": "RealEstateAgent",
-    name: "Dr. Jan Duffy - Berkshire Hathaway HomeServices Nevada Properties",
-    telephone: "+17025001942",
+    name: "Dr. Jan Duffy - Nevada Properties",
+    telephone: "+17028421192",
   },
   areaServed: "Las Vegas, Henderson, Summerlin, Clark County NV",
   serviceType: "Relocation Services",
@@ -116,7 +116,7 @@ export default function RelocationPage() {
           {/* Hero */}
           <div className="max-w-4xl mx-auto text-center mb-16">
             <div className="inline-block bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-              Berkshire Hathaway HomeServices Nevada Properties
+              Nevada Properties
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
               Relocating to Las Vegas?
@@ -175,7 +175,7 @@ export default function RelocationPage() {
               <blockquote className="text-lg text-slate-700 italic mb-4">
                 "Moving to a new city is stressful enough. I handle everything from neighborhood
                 tours to school research to contractor referrals so you can focus on your new
-                beginning. And because Berkshire Hathaway HomeServices has agents nationwide, I can
+                beginning. And because has agents nationwide, I can
                 coordinate with your agent back home to make the transition seamless. My goal is to 
                 make Las Vegas feel like home before you even arrive."
               </blockquote>
@@ -341,10 +341,10 @@ export default function RelocationPage() {
           {/* BHHS Network */}
           <section className="mb-16 max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold text-slate-900 mb-4 text-center">
-              The Berkshire Hathaway HomeServices Advantage
+              The Advantage
             </h2>
             <p className="text-slate-600 text-center max-w-3xl mx-auto mb-8">
-              With 50,000+ agents in 1,500+ offices worldwide, Berkshire Hathaway HomeServices 
+              With 50,000+ agents in 1,500+ offices worldwide, 
               provides seamless coordination for relocations. Your agent back home can connect 
               directly with Dr. Jan to ensure a smooth transition—no gaps, no miscommunication.
             </p>
@@ -421,17 +421,17 @@ export default function RelocationPage() {
           <section className="text-center bg-slate-900 text-white rounded-2xl p-8 md:p-12 max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Planning Your Move to Las Vegas?</h2>
             <p className="text-xl text-slate-300 mb-8">
-              Let Dr. Jan Duffy and Berkshire Hathaway HomeServices make your relocation stress-free.
+              Let Dr. Jan Duffy and make your relocation stress-free.
               Whether you're moving next month or exploring options, a free consultation can help 
               you understand the Las Vegas market and plan your transition.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+17025001942"
+                href="tel:+17028421192"
                 className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-md font-bold text-lg transition-colors"
               >
                 <Phone className="h-5 w-5 mr-2" />
-                Call (702) 500-1942
+                Call (702) 842-1192
               </a>
               <Link
                 href="/contact"
@@ -441,7 +441,7 @@ export default function RelocationPage() {
               </Link>
             </div>
             <p className="mt-4 text-slate-400 text-sm">
-              Berkshire Hathaway HomeServices Nevada Properties
+              Nevada Properties
             </p>
           </section>
         </div>

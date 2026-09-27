@@ -325,8 +325,10 @@ jobs:
                 
                 // Check for proper phone numbers
                 if (content.includes('702-222-1964') || content.includes('7022221964') || 
-                    content.includes('702-500-1955') || content.includes('7025001955')) {
-                  issues.push(`❌ **${file.filename}**: Contains old phone number (should be (702) 500-1942)`);
+                    content.includes('702-500-1955') || content.includes('7025001955') ||
+                    content.includes('500-1942') || content.includes('5001942') ||
+                    content.includes('17025001942')) {
+                  issues.push(`❌ **${file.filename}**: Contains old phone number (should be (702) 842-1192)`);
                 }
                 
                 // Check for JSON-LD schema
@@ -484,7 +486,7 @@ jobs:
             - [ ] Code follows project conventions
             - [ ] Tests pass with adequate coverage (80%+)
             - [ ] SEO metadata is present and optimized
-            - [ ] Phone numbers are correct: (702) 500-1942
+            - [ ] Phone numbers are correct: (702) 842-1192
             - [ ] Berkshire Hathaway branding is consistent
             - [ ] Mobile responsive design verified
             - [ ] No console errors

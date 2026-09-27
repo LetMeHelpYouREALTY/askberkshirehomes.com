@@ -27,20 +27,20 @@ import {
 } from "@/lib/gbp-schema";
 
 export const metadata: Metadata = {
-  title: "Dr. Jan Duffy, REALTOR® Las Vegas | Berkshire Hathaway HomeServices",
+  title: "Dr. Jan Duffy, REALTOR® Las Vegas",
   description:
-    "Dr. Jan Duffy is a trusted Las Vegas REALTOR® with Berkshire Hathaway HomeServices Nevada Properties. Specializing in Summerlin, Henderson, 55+ communities, California relocation, and luxury homes. Call (702) 500-1942.",
+    "Dr. Jan Duffy is a trusted Las Vegas REALTOR® with Nevada Properties. Specializing in Summerlin, Henderson, 55+ communities, California relocation, and luxury homes. Call (702) 842-1192.",
   keywords: [
     "Dr. Jan Duffy realtor",
     "Las Vegas real estate agent",
-    "Berkshire Hathaway HomeServices Las Vegas",
+    "Las Vegas",
     "Summerlin realtor",
     "Henderson real estate agent",
     "55+ communities Las Vegas",
     "California relocation Las Vegas",
   ],
   openGraph: {
-    title: "Dr. Jan Duffy - Berkshire Hathaway HomeServices Nevada Properties",
+    title: "Dr. Jan Duffy - Nevada Properties",
     description: "Trusted Las Vegas REALTOR® serving since 2008. Summerlin, Henderson, luxury homes, 55+ communities.",
     url: "https://heyberkshire.com/google-business",
     type: "profile",
