@@ -35,7 +35,7 @@ const breadcrumbs = [
 
 const faqCategories = [
   {
-    title: "About Berkshire Hathaway HomeServices",
+    title: "Brokerage & agent support",
     faqs: [
       {
         q: "Why should I choose a agent?",
