@@ -140,8 +140,7 @@ export default function GreenValleyPage() {
                 develops over generations.
               </p>
               <p>
-                Dr. Jan Duffy has been selling
-                homes in Green Valley for years. Dr. Jan Duffy knows which streets offer the best
+                Dr. Jan Duffy sells homes in Green Valley and knows which streets offer the best
                 mountain views, which school zones are most sought-after, and which HOAs maintain their
                 communities to the highest standards. This institutional knowledge, combined with the
                 a strong professional network, gives Green Valley buyers and sellers a distinct advantage.

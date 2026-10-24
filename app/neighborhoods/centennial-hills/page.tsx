@@ -139,7 +139,7 @@ export default function CentennialHillsPage() {
                 Hills' urban conveniences would suggest.
               </p>
               <p>
-                Dr. Jan Duffy has represented Centennial Hills families since the community's earliest phases. She knows
+                Dr. Jan Duffy represents Centennial Hills families and knows
                 which streets offer the best mountain views, which school zones are most sought-after,
                 and which HOAs maintain their communities to the highest standards. This deep local
                 knowledge, combined with a commitment to client service, ensures Centennial

@@ -140,8 +140,7 @@ export default function TheRidgesPage() {
                 aesthetic throughout.
               </p>
               <p>
-                Dr. Jan Duffy has represented buyers
-                and sellers in The Ridges since the community's inception. Dr. Jan Duffy understands that
+                Dr. Jan Duffy represents buyers and sellers in The Ridges and understands that
                 luxury transactions require more than market knowledge—they demand discretion, sophisticated
                 marketing, and access to qualified buyers worldwide. A global referral network connects The
                 Ridges properties with high-net-worth individuals actively seeking premier real estate

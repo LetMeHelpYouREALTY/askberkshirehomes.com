@@ -126,8 +126,7 @@ export default function SunCitySummerlinPage() {
                 woodworking, and ballroom dancing.
               </p>
               <p>
-                Dr. Jan Duffy has helped
-                hundreds of buyers find their Sun City Summerlin home. Dr. Jan Duffy understands
+                Dr. Jan Duffy helps buyers find their Sun City Summerlin home and understands
                 the community's various neighborhoods, floor plans, and which areas offer the best
                 value or views.
               </p>

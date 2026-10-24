@@ -148,8 +148,7 @@ export default function SummerlinPage() {
                 enjoy an active, healthy lifestyle that's hard to find elsewhere in the desert Southwest.
               </p>
               <p>
-                Dr. Jan Duffy has deep roots in Summerlin,
-                and our agents understand the nuances of each village—from the family-friendly atmosphere of
+                Dr. Jan Duffy understands the nuances of each village—from the family-friendly atmosphere of
                 The Paseos to the luxury estates of The Ridges. Whether you're a first-time buyer looking at
                 condos in Affinity or a move-up buyer seeking a custom home in Red Rock Country Club, Dr. Jan Duffy
                 has the expertise to guide you through the process.
