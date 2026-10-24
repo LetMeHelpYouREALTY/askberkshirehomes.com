@@ -8,13 +8,12 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Las Vegas Real Estate Market Report January 2026",
   description:
-    "Get the latest Las Vegas real estate market statistics for January 2026. Median prices, days on market, inventory levels, and expert analysis from Nevada Properties.",
+    "Get the latest Las Vegas real estate market statistics for January 2026. Median prices, days on market, inventory levels, and expert analysis from Dr. Jan Duffy.",
   keywords: [
     "Las Vegas real estate market",
     "Las Vegas home prices 2026",
     "Henderson real estate market",
     "Nevada housing market",
-    "Berkshire Hathaway market report",
   ],
 };
 
@@ -55,7 +54,7 @@ export default function MarketReportPage() {
             </h1>
             <p className="text-xl text-slate-600">
               January 2026 | Expert analysis from{" "}
-              <strong>Nevada Properties</strong>
+              <strong>Dr. Jan Duffy</strong>
             </p>
           </div>
 
@@ -190,7 +189,7 @@ export default function MarketReportPage() {
                 proper pricing and preparation."
               </blockquote>
               <cite className="text-slate-900 font-semibold">
-                — Dr. Jan Duffy, Nevada Properties
+                — Dr. Jan Duffy, REALTOR®
               </cite>
             </div>
 
@@ -310,7 +309,7 @@ export default function MarketReportPage() {
               Call (702) 842-1192
             </a>
             <p className="mt-4 text-blue-200 text-sm">
-              Nevada Properties
+              Dr. Jan Duffy, REALTOR®
             </p>
           </section>
         </div>

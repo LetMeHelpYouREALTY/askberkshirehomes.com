@@ -68,7 +68,7 @@ export default function WhyBrokerageSupportPage() {
                   Financial strength behind your transaction
                 </h2>
                 <p className="text-slate-300 mb-6">
-                  Dr. Jan Duffy works with {agentInfo.brokerage}, part of a network known for
+                  Dr. Jan Duffy works with a brokerage that is part of a network known for
                   long-term stability and strict professional standards. That backing matters when
                   you need marketing reach, compliance support, or a referral in another state.
                 </p>
@@ -79,8 +79,8 @@ export default function WhyBrokerageSupportPage() {
               </div>
               <div className="bg-slate-800 rounded-lg p-8 text-center">
                 <TrendingUp className="h-16 w-16 text-blue-400 mx-auto mb-4" />
-                <p className="text-4xl font-bold text-blue-400 mb-2">50,000+</p>
-                <p className="text-slate-300">Agents in the global referral network</p>
+                <p className="text-4xl font-bold text-blue-400 mb-2">Nationwide</p>
+                <p className="text-slate-300">Referral network for relocations</p>
               </div>
             </div>
           </section>
@@ -168,7 +168,7 @@ export default function WhyBrokerageSupportPage() {
                 <p className="text-5xl font-bold text-blue-600 mb-2">$127M+</p>
                 <p className="text-slate-600 mb-4">Career closed volume</p>
                 <p className="text-3xl font-bold text-blue-600 mb-2">500+</p>
-                <p className="text-slate-600">Families served since 2008</p>
+                <p className="text-slate-600">Families served</p>
               </div>
             </div>
           </section>

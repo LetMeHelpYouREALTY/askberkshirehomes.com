@@ -18,7 +18,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Las Vegas Market Update | January 2026",
   description:
-    "Weekly Las Vegas real estate market update from Nevada Properties. Get the latest stats, notable sales, and expert analysis from Dr. Jan Duffy. Call (702) 842-1192.",
+    "Weekly Las Vegas real estate market update from Dr. Jan Duffy. Get the latest stats, notable sales, and expert analysis from Dr. Jan Duffy. Call (702) 842-1192.",
   keywords: [
     "Las Vegas market update",
     "Las Vegas real estate market",
@@ -33,7 +33,7 @@ const articleSchema = {
   "@type": "NewsArticle",
   headline: "Las Vegas Real Estate Market Update - Week of January 20, 2026",
   description:
-    "Weekly market analysis from Nevada Properties covering Las Vegas Valley real estate trends, statistics, and expert insights.",
+    "Weekly market analysis from Dr. Jan Duffy covering Las Vegas Valley real estate trends, statistics, and expert insights.",
   datePublished: "2026-01-20",
   dateModified: "2026-01-24",
   author: {
@@ -84,7 +84,7 @@ export default function MarketUpdatePage() {
             </h1>
             <p className="text-xl text-slate-600">
               Your weekly insider report on Las Vegas Valley real estate from{" "}
-              <strong>Nevada Properties</strong>
+              <strong>Dr. Jan Duffy</strong>
             </p>
             <div className="flex items-center justify-center mt-6 text-slate-500 text-sm">
               <span>By Dr. Jan Duffy, REALTOR®</span>
@@ -213,7 +213,7 @@ export default function MarketUpdatePage() {
                 <p>
                   What I'm watching closely: <strong>new listing activity</strong>. If inventory
                   continues declining while sales remain strong, we could see more competitive
-                  conditions by spring. <strong>Berkshire Hathaway HomeServices</strong> buyers
+                  conditions by spring. Buyers
                   should be prepared to move quickly on desirable properties, while sellers should
                   consider listing before the traditional spring rush creates more competition."
                 </p>
@@ -311,7 +311,7 @@ export default function MarketUpdatePage() {
                   <li className="flex items-start">
                     <ArrowRight className="h-5 w-5 text-blue-600 mr-2 mt-0.5 flex-shrink-0" />
                     <span>
-                      <strong>Leverage the BHHS brand.</strong> Berkshire Hathaway HomeServices
+                      <strong>Leverage professional marketing.</strong> Dr. Jan Duffy's
                       marketing reaches qualified buyers locally, nationally, and internationally.
                     </span>
                   </li>
@@ -399,9 +399,6 @@ export default function MarketUpdatePage() {
                 Get Free Home Valuation
               </Link>
             </div>
-            <p className="mt-6 text-blue-200 text-sm">
-              Nevada Properties
-            </p>
           </section>
 
           {/* Newsletter Signup */}

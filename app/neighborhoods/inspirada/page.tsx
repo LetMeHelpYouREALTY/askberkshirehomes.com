@@ -8,7 +8,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Inspirada | Henderson Resort Living",
   description:
-    "Find Inspirada homes with Nevada Properties. Dr. Jan Duffy specializes in Henderson's resort-style community. Median price $525K. Call (702) 842-1192.",
+    "Find Inspirada homes with Dr. Jan Duffy. She specializes in Henderson's resort-style community. Median price $525K. Call (702) 842-1192.",
   keywords: [
     "Inspirada",
     "Inspirada homes for sale",
@@ -81,14 +81,14 @@ export default function InspiradaPage() {
           {/* Hero */}
           <div className="max-w-4xl mx-auto text-center mb-16">
             <div className="inline-block bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-              Nevada Properties
+              Top 1% Las Vegas REALTOR®
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
               Inspirada
             </h1>
             <p className="text-xl text-slate-600">
               Resort-style living in Henderson. Discover Inspirada with{" "}
-              <strong>Berkshire Hathaway HomeServices</strong> and Dr. Jan Duffy.
+              Dr. Jan Duffy.
             </p>
           </div>
 
@@ -127,7 +127,7 @@ export default function InspiradaPage() {
                 <strong>Inspirada</strong> redefines what a master-planned community can be. This
                 2,000-acre development in Henderson consistently ranks among the nation's top-selling
                 communities, and for good reason: Inspirada delivers resort-style amenities that make
-                every day feel like a vacation. <strong>Berkshire Hathaway HomeServices</strong>
+                every day feel like a vacation. Dr. Jan Duffy
                 is proud to represent buyers and sellers in this exceptional community.
               </p>
               <p>
@@ -139,11 +139,11 @@ export default function InspiradaPage() {
                 to Inspirada's identity.
               </p>
               <p>
-                <strong>Nevada Properties</strong> provides free
+                Dr. Jan Duffy provides free
                 buyer representation on Inspirada new construction purchases. With multiple builders
                 offering homes in the community, navigating options can be overwhelming. Dr. Jan Duffy
                 helps buyers compare builders, negotiate upgrades, and avoid common new construction
-                pitfalls. For resales, BHHS agents identify properties where previous owners made
+                pitfalls. For resales, Dr. Jan Duffy identifies properties where previous owners made
                 smart upgrade decisions, delivering better value than comparable new construction.
               </p>
 
@@ -289,7 +289,7 @@ export default function InspiradaPage() {
                 established yards and upgraded features offer compelling alternatives.
               </p>
               <p>
-                Choosing <strong>Berkshire Hathaway HomeServices</strong> for your Inspirada purchase
+                Choosing Dr. Jan Duffy for your Inspirada purchase
                 means working with agents who understand the community's various neighborhoods, which
                 builders offer the best quality, and which lots provide the best value. Dr. Jan Duffy
                 has helped dozens of families find their Inspirada homes, and that experience
@@ -309,7 +309,7 @@ export default function InspiradaPage() {
                 main pool complex or on a quiet cul-de-sac backing to open space."
               </blockquote>
               <cite className="text-slate-900 font-semibold">
-                — Dr. Jan Duffy, Nevada Properties
+                — Dr. Jan Duffy, REALTOR®
               </cite>
             </div>
           </section>
@@ -380,7 +380,7 @@ export default function InspiradaPage() {
               Call (702) 842-1192
             </a>
             <p className="mt-4 text-blue-200 text-sm">
-              Nevada Properties
+              Dr. Jan Duffy, REALTOR®
             </p>
           </section>
         </div>

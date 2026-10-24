@@ -76,15 +76,15 @@ export default function Footer() {
         <div className="border-t border-slate-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-slate-400 text-sm text-center md:text-left">
-              © {currentYear} {agentInfo.brokerage}. All Rights Reserved.
+              © {currentYear} {siteConfig.name}. All Rights Reserved.
             </p>
             <Link href="/sitemap.xml" className="text-slate-400 hover:text-white text-sm">
               Sitemap
             </Link>
           </div>
           <p className="text-slate-500 text-xs mt-4 text-center">
-            {agentInfo.name}, {agentInfo.title} | License {agentInfo.license} |{" "}
-            {agentInfo.brokerage}
+            {agentInfo.name}, {agentInfo.title} | {agentInfo.brokerage} since September 2008 · License{" "}
+            {agentInfo.license}
           </p>
         </div>
       </div>

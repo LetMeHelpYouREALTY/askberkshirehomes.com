@@ -8,7 +8,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Mountains Edge | Southwest Las Vegas",
   description:
-    "Find Mountains Edge homes with Nevada Properties. Dr. Jan Duffy specializes in this southwest Las Vegas community. Median price $475K. Call (702) 842-1192.",
+    "Find Mountains Edge homes with Dr. Jan Duffy. She specializes in this southwest Las Vegas community. Median price $475K. Call (702) 842-1192.",
   keywords: [
     "Mountains Edge",
     "Mountains Edge homes for sale",
@@ -51,7 +51,7 @@ const faqSchema = {
       name: "Is new construction available in Mountains Edge?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, several builders offer new construction in Mountains Edge's expanding areas. BHHS provides free buyer representation on new construction purchases, helping buyers navigate builder contracts and negotiate upgrades.",
+        text: "Yes, several builders offer new construction in Mountains Edge's expanding areas. Dr. Jan Duffy provides free buyer representation on new construction purchases, helping buyers navigate builder contracts and negotiate upgrades.",
       },
     },
   ],
@@ -81,14 +81,14 @@ export default function MountainsEdgePage() {
           {/* Hero */}
           <div className="max-w-4xl mx-auto text-center mb-16">
             <div className="inline-block bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-              Nevada Properties
+              Top 1% Las Vegas REALTOR®
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
               Mountains Edge
             </h1>
             <p className="text-xl text-slate-600">
               Affordable luxury in southwest Las Vegas. Find your Mountains Edge home with{" "}
-              <strong>Berkshire Hathaway HomeServices</strong> and Dr. Jan Duffy.
+              Dr. Jan Duffy.
             </p>
           </div>
 
@@ -128,7 +128,7 @@ export default function MountainsEdgePage() {
                 master-planned community amenities at prices significantly below Summerlin or
                 Henderson. This 3,500-acre community in southwest Las Vegas offers mountain views,
                 exceptional parks, and modern homes—without the premium prices of the valley's
-                more established luxury markets. <strong>Berkshire Hathaway HomeServices</strong>
+                more established luxury markets. Dr. Jan Duffy
                 helps value-conscious buyers discover Mountains Edge's potential.
               </p>
               <p>
@@ -140,7 +140,7 @@ export default function MountainsEdgePage() {
                 to Southern Nevada's natural beauty.
               </p>
               <p>
-                <strong>Nevada Properties</strong> serves Mountains
+                Dr. Jan Duffy serves Mountains
                 Edge buyers with the same commitment to excellence we bring to the valley's luxury
                 markets. Dr. Jan Duffy understands that value doesn't mean compromise—it means
                 finding the right home at the right price. For families priced out of Summerlin
@@ -290,11 +290,11 @@ export default function MountainsEdgePage() {
                 $750,000 for larger properties with premium views and upgraded features.
               </p>
               <p>
-                Working with <strong>Berkshire Hathaway HomeServices</strong> in Mountains Edge means
+                Working with Dr. Jan Duffy in Mountains Edge means
                 getting honest guidance about where the community offers the best value. Dr. Jan Duffy
                 helps buyers identify neighborhoods with the strongest appreciation potential, homes
                 with the best views, and properties that represent genuine value rather than
-                superficial appeal. That expertise—combined with the BHHS commitment to client
+                superficial appeal. That expertise—combined with a commitment to client
                 service—ensures Mountains Edge buyers make informed decisions.
               </p>
             </div>
@@ -310,7 +310,7 @@ export default function MountainsEdgePage() {
                 that finding the right home isn't about spending the most—it's about spending wisely."
               </blockquote>
               <cite className="text-slate-900 font-semibold">
-                — Dr. Jan Duffy, Nevada Properties
+                — Dr. Jan Duffy, REALTOR®
               </cite>
             </div>
           </section>
@@ -358,7 +358,7 @@ export default function MountainsEdgePage() {
                 </h3>
                 <p className="text-slate-600">
                   Yes, several builders offer new construction in Mountains Edge's expanding areas.
-                  BHHS provides free buyer representation on new construction purchases, helping
+                  Dr. Jan Duffy provides free buyer representation on new construction purchases, helping
                   buyers navigate builder contracts and negotiate upgrades.
                 </p>
               </div>
@@ -382,7 +382,7 @@ export default function MountainsEdgePage() {
               Call (702) 842-1192
             </a>
             <p className="mt-4 text-blue-200 text-sm">
-              Nevada Properties
+              Dr. Jan Duffy, REALTOR®
             </p>
           </section>
         </div>

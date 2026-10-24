@@ -15,7 +15,7 @@ import {
 export const metadata: Metadata = {
   title: "Summerlin | Las Vegas Luxury Real Estate",
   description:
-    "Find Summerlin homes with Nevada Properties. Dr. Jan Duffy offers expert guidance in Las Vegas's premier master-planned community. Median price $625K. Call (702) 842-1192.",
+    "Find Summerlin homes with Dr. Jan Duffy. She offers expert guidance in Las Vegas's premier master-planned community. Median price $625K. Call (702) 842-1192.",
   keywords: [
     "Summerlin",
     "Summerlin homes for sale",
@@ -52,7 +52,7 @@ const summerlinFaqs = [
   {
     question: "Why should I use a agent in Summerlin?",
     answer:
-      "agents like Dr. Jan Duffy bring deep Summerlin expertise combined with the global resources and trusted reputation of the BHHS brand. This combination helps buyers compete in Summerlin's competitive market and helps sellers maximize their home's value.",
+      "agents like Dr. Jan Duffy bring deep Summerlin expertise combined with the trusted local reputation. This combination helps buyers compete in Summerlin's competitive market and helps sellers maximize their home's value.",
   },
 ];
 
@@ -93,14 +93,13 @@ export default function SummerlinPage() {
           {/* Hero */}
           <div className="max-w-4xl mx-auto text-center mb-16">
             <div className="inline-block bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-              Nevada Properties
+              Top 1% Las Vegas REALTOR®
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
               Summerlin
             </h1>
             <p className="text-xl text-slate-600">
-              Discover Las Vegas's premier master-planned community with Dr. Jan Duffy, your trusted{" "}
-              <strong>Berkshire Hathaway HomeServices</strong> Summerlin expert.
+              Discover Las Vegas's premier master-planned community with Dr. Jan Duffy, your trusted Summerlin expert.
             </p>
           </div>
 
@@ -137,7 +136,7 @@ export default function SummerlinPage() {
               </h2>
               <p>
                 When homebuyers search for the best neighborhoods in Las Vegas, <strong>Summerlin</strong> consistently
-                ranks at the top. As a <strong>Berkshire Hathaway HomeServices</strong> agent specializing in Summerlin
+                ranks at the top. As a local REALTOR® specializing in Summerlin
                 real estate, Dr. Jan Duffy has helped hundreds of families find their perfect home in this
                 award-winning master-planned community.
               </p>
@@ -149,10 +148,10 @@ export default function SummerlinPage() {
                 enjoy an active, healthy lifestyle that's hard to find elsewhere in the desert Southwest.
               </p>
               <p>
-                <strong>Nevada Properties</strong> has deep roots in Summerlin,
+                Dr. Jan Duffy has deep roots in Summerlin,
                 and our agents understand the nuances of each village—from the family-friendly atmosphere of
                 The Paseos to the luxury estates of The Ridges. Whether you're a first-time buyer looking at
-                condos in Affinity or a move-up buyer seeking a custom home in Red Rock Country Club, BHHS
+                condos in Affinity or a move-up buyer seeking a custom home in Red Rock Country Club, Dr. Jan Duffy
                 has the expertise to guide you through the process.
               </p>
 
@@ -285,9 +284,9 @@ export default function SummerlinPage() {
                 a fraction of the cost—with no state income tax.
               </p>
               <p>
-                Working with a <strong>Berkshire Hathaway HomeServices</strong> agent gives you access to listings
+                Working with a local REALTOR® gives you access to listings
                 before they hit the market, expert negotiation skills, and the backing of a globally trusted brand.
-                Dr. Jan Duffy has been serving Summerlin since 2008, which means you'll have insights that online 
+                Dr. Jan Duffy has been in real estate since 1983, which means you'll have insights that online 
                 searches simply can't provide—from which streets have the best mountain views to which builders 
                 offer the best construction quality.
               </p>
@@ -298,13 +297,11 @@ export default function SummerlinPage() {
           <section className="mb-16 max-w-4xl mx-auto">
             <div className="bg-blue-50 border-l-4 border-blue-600 rounded-lg p-8">
               <blockquote className="text-lg text-slate-700 italic mb-4">
-                "Summerlin isn't just a neighborhood—it's a lifestyle. I've been serving this area since
-                2008, and I can tell you exactly which villages suit young families, which offer the
-                best investment potential, and where you'll find the hidden gems. That local knowledge is
-                what sets apart."
+                "Summerlin isn't just a neighborhood—it's a lifestyle. I've been in real estate since 1983, and I can tell you exactly which villages suit young families, which offer the
+                best investment potential, and where you'll find the hidden gems. That local knowledge is what sets me apart."
               </blockquote>
               <cite className="text-slate-900 font-semibold">
-                — Dr. Jan Duffy, Nevada Properties
+                — Dr. Jan Duffy, REALTOR®
               </cite>
             </div>
           </section>
@@ -351,7 +348,7 @@ export default function SummerlinPage() {
                 </h3>
                 <p className="text-slate-600">
                   agents like Dr. Jan Duffy bring deep Summerlin expertise
-                  combined with the global resources and trusted reputation of the BHHS brand. This
+                  combined with the trusted local reputation. This
                   combination helps buyers compete in Summerlin's competitive market and helps sellers
                   maximize their home's value.
                 </p>
@@ -376,7 +373,7 @@ export default function SummerlinPage() {
               Call (702) 842-1192
             </a>
             <p className="mt-4 text-blue-200 text-sm">
-              Nevada Properties
+              Dr. Jan Duffy, REALTOR®
             </p>
           </section>
         </div>
