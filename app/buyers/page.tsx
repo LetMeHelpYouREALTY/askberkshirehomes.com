@@ -102,13 +102,13 @@ export default function BuyersPage() {
           {/* Hero */}
           <div className="max-w-4xl mx-auto text-center mb-16">
             <div className="inline-block bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-              Top 1% Las Vegas REALTOR®
+              Las Vegas REALTOR®
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
               Buy Your Las Vegas Home with Confidence
             </h1>
             <p className="text-xl text-slate-600 mb-8">
-              When you work with Dr. Jan Duffy as your buyer's agent, you're backed by a Top 1% Las Vegas REALTOR®—and it costs you nothing.
+              When you work with Dr. Jan Duffy as your buyer's agent, you're backed by a Las Vegas REALTOR®—and it costs you nothing.
               The seller pays the commission, but the representation is yours.
             </p>
             <div className="flex flex-wrap justify-center gap-4 text-sm text-slate-500">
@@ -137,7 +137,7 @@ export default function BuyersPage() {
                     "Contract and disclosure review",
                     "Inspection coordination and repair negotiation",
                     "Lender and service provider referrals",
-                    "Local market expertise since 1983",
+                    "Local expertise from 35 years in Las Vegas",
                   ].map((item) => (
                     <li key={item} className="flex items-center">
                       <CheckCircle className="h-5 w-5 text-green-400 mr-2 flex-shrink-0" />
@@ -154,7 +154,7 @@ export default function BuyersPage() {
                   transaction—from the first showing to the closing table and beyond.
                 </p>
                 <div className="text-sm text-slate-500">
-                  In real estate since 1983 | $127M+ in transactions
+                  Licensed since 2008 · 35 years in Las Vegas | $127M+ in Dr. Duffy Group career sales
                 </div>
               </div>
             </div>
@@ -303,7 +303,7 @@ export default function BuyersPage() {
                 <div className="bg-blue-100 w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-3">
                   <Award className="h-7 w-7 text-blue-600" />
                 </div>
-                <h3 className="font-bold text-slate-900 mb-2">Trusted Agent</h3> <p className="text-slate-600 text-sm"> Top 1% Las Vegas REALTOR® </p>
+                <h3 className="font-bold text-slate-900 mb-2">Trusted Agent</h3> <p className="text-slate-600 text-sm"> Las Vegas REALTOR® </p>
               </div>
               <div className="text-center">
                 <div className="bg-blue-100 w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-3">
@@ -320,7 +320,7 @@ export default function BuyersPage() {
                 </div>
                 <h3 className="font-bold text-slate-900 mb-2">Local Expertise</h3>
                 <p className="text-slate-600 text-sm">
-                  Dr. Jan has been in real estate since 1983 with $127M+ in transactions
+                  Dr. Jan has been licensed since 2008 (35 years in Las Vegas) with $127M+ in Dr. Duffy Group career sales
                 </p>
               </div>
               <div className="text-center">
@@ -329,7 +329,7 @@ export default function BuyersPage() {
                 </div>
                 <h3 className="font-bold text-slate-900 mb-2">Expert Negotiation</h3>
                 <p className="text-slate-600 text-sm">
-                  500+ successful transactions mean proven negotiation skills
+                  500+ team sales mean proven negotiation skills
                 </p>
               </div>
             </div>
@@ -345,7 +345,7 @@ export default function BuyersPage() {
                 every client like family and won't stop until we find the right home for your needs."
               </blockquote>
               <cite className="text-slate-900 font-semibold">
-                — Dr. Jan Duffy, REALTOR® | In Real Estate Since 1983
+                — Dr. Jan Duffy, REALTOR® | Licensed Since 2008 · 35 Years in Las Vegas
               </cite>
             </div>
           </section>
