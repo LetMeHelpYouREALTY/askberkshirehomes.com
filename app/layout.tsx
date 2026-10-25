@@ -9,7 +9,7 @@ import { canonicalForPath } from "@/lib/page-metadata";
 import { getSiteUrl } from "@/lib/site-url";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const headersList = headers();
+  const headersList = await headers();
   const pathname = headersList.get("x-pathname") || "/";
   const siteUrl = getSiteUrl();
   const canonical = canonicalForPath(pathname);
