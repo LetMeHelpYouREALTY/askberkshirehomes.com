@@ -25,7 +25,7 @@ export const metadata: Metadata = pageMetadata({
   path: "/about",
   title: "About Dr. Jan Duffy | Las Vegas REALTOR®",
   description:
-    "Meet Dr. Jan Duffy, Nevada REALTOR® in real estate since 1983, with $127M+ closed volume. Call (702) 842-1192.",
+    "Meet Dr. Jan Duffy, Nevada REALTOR® licensed since 2008 · 35 years in Las Vegas, with $127M+ in Dr. Duffy Group career sales. Call (702) 842-1192.",
   keywords: ["Dr. Jan Duffy", "Las Vegas realtor", "Henderson real estate agent", "Summerlin realtor"],
 });
 
@@ -36,7 +36,7 @@ const personSchema = {
   name: "Dr. Jan Duffy",
   jobTitle: "REALTOR®",
   description:
-    "Licensed REALTOR® serving Las Vegas, Henderson, and Summerlin, in real estate since 1983.",
+    "Licensed REALTOR® serving Las Vegas, Henderson, and Summerlin, licensed since 2008 · 35 years in Las Vegas.",
   telephone: "+17028421192",
   email: agentInfo.email,
   url: `${getSiteUrl()}/about`,
@@ -128,7 +128,7 @@ export default function AboutPage() {
               About Dr. Jan Duffy
             </h1>
             <p className="text-xl text-slate-600">
-              Dr. Jan Duffy, Top 1% Las Vegas REALTOR®, has been in real estate since 1983. Whether you're buying, selling, investing, or 
+              Dr. Jan Duffy, Las Vegas REALTOR®, has been licensed since 2008 (35 years in Las Vegas). Whether you're buying, selling, investing, or 
               relocating, you'll receive expert guidance with integrity and professionalism.
             </p>
           </div>
@@ -139,7 +139,7 @@ export default function AboutPage() {
               <div>
                 <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Dr. Jan Duffy</h2>
                 <p className="text-lg text-blue-600 mb-6">
-                  Top 1% Las Vegas REALTOR® | In Real Estate Since 1983
+                  Las Vegas REALTOR® | Licensed Since 2008 · 35 Years in Las Vegas
                 </p>
 
                 <div className="prose prose-lg text-slate-700 mb-8 space-y-4">
@@ -147,8 +147,8 @@ export default function AboutPage() {
                     When you choose to work with me, you're choosing trust, integrity, and excellence. I bring world-class resources and local expertise to every client I serve.
                   </p>
                   <p>
-                    I've been in real estate since 1983, closed $127M+ in transactions, and
-                    helped hundreds of families find their perfect home in Las Vegas, Henderson,
+                    I've been licensed since 2008 (35 years in Las Vegas), led the Dr. Duffy Group to $127M+ in career sales, and
+                    helped hundreds of clients find their perfect home in Las Vegas, Henderson,
                     Summerlin, and throughout Southern Nevada. My expertise spans luxury properties,
                     new construction, investment real estate, 55+ active adult communities, and 
                     relocations—particularly for California families seeking Nevada's tax advantages.
@@ -226,7 +226,7 @@ export default function AboutPage() {
                 {/* Stats Grid */}
                 <div className="grid grid-cols-2 gap-4">
                   <div className="bg-blue-50 rounded-lg p-6 text-center">
-                    <div className="text-3xl font-bold text-blue-600 mb-1">Since 1983</div> <div className="text-sm text-slate-600">In Real Estate</div>
+                    <div className="text-3xl font-bold text-blue-600 mb-1">Licensed Since 2008</div> <div className="text-sm text-slate-600">In Real Estate</div>
                   </div>
                   <div className="bg-blue-50 rounded-lg p-6 text-center">
                     <div className="text-3xl font-bold text-blue-600 mb-1">$127M+</div>
@@ -304,7 +304,7 @@ export default function AboutPage() {
                 <div className="bg-blue-600 rounded-full p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
                   <Award className="h-8 w-8" />
                 </div>
-                <h3 className="font-bold text-xl mb-2">Trusted Agent</h3> <p className="text-slate-300 text-sm"> Top 1% Las Vegas REALTOR®, known for trust and integrity.
+                <h3 className="font-bold text-xl mb-2">Trusted Agent</h3> <p className="text-slate-300 text-sm"> Las Vegas REALTOR®, known for trust and integrity.
                 </p>
               </div>
               <div className="text-center">
