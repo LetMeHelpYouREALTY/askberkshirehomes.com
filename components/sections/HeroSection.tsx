@@ -82,8 +82,8 @@ export default function HeroSection() {
             <span className="font-semibold">Since 2008</span> <span>Licensed</span>
           </div>
           <div className="flex items-center gap-2">
-            <span className="font-semibold">4.9★</span>
-            <span>Average Rating</span>
+            <span className="font-semibold">5.0★</span>
+            <span>Realtor.com (50 reviews)</span>
           </div>
         </div>
       </div>
