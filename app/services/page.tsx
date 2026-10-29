@@ -116,7 +116,7 @@ const specializedServices = [
     title: "Home Valuation Services",
     slug: "home-valuation",
     description:
-      "Free, no-obligation home valuations using current MLS data, recent comparable sales, and deep local market knowledge from a career in real estate since 1983.",
+      "Free, no-obligation home valuations using current MLS data, recent comparable sales, and deep local market knowledge from a career licensed since 2008 · 35 years in Las Vegas.",
     highlights: ["Accurate pricing", "No obligation", "Detailed analysis", "Market trends"],
   },
 ];
@@ -175,28 +175,28 @@ export default function ServicesPage() {
           {/* Hero */}
           <div className="max-w-4xl mx-auto text-center mb-16">
             <div className="inline-block bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-              Top 1% Las Vegas REALTOR®
+              Las Vegas REALTOR®
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
               Las Vegas Real Estate Services
             </h1>
             <p className="text-xl text-slate-600 mb-8">
-              Comprehensive real estate solutions from Dr. Jan Duffy, Top 1% Las Vegas REALTOR®. Whether you're 
+              Comprehensive real estate solutions from Dr. Jan Duffy, Las Vegas REALTOR®. Whether you're 
               buying your first home, selling a luxury estate, or relocating from California, 
               you'll receive expert guidance every step of the way.
             </p>
             <div className="flex flex-wrap justify-center gap-6 text-sm">
               <div className="flex items-center">
                 <CheckCircle className="h-5 w-5 text-green-500 mr-2" />
-                <span>In Real Estate Since 1983</span>
+                <span>Licensed Since 2008</span>
               </div>
               <div className="flex items-center">
                 <CheckCircle className="h-5 w-5 text-green-500 mr-2" />
-                <span>$127M+ in Transactions</span>
+                <span>$127M+ in Team Career Sales</span>
               </div>
               <div className="flex items-center">
                 <CheckCircle className="h-5 w-5 text-green-500 mr-2" />
-                <span>500+ Satisfied Clients</span>
+                <span>500+ Team Sales</span>
               </div>
             </div>
           </div>
@@ -372,11 +372,11 @@ export default function ServicesPage() {
             <div className="grid md:grid-cols-3 gap-6 text-center mb-8">
               
               <div>
-                <div className="text-3xl font-bold text-blue-400 mb-2">Since 1983</div> <div className="text-slate-300 text-sm">In Real Estate</div>
+                <div className="text-3xl font-bold text-blue-400 mb-2">Since 2008</div> <div className="text-slate-300 text-sm">Licensed</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-blue-400 mb-2">$127M+</div>
-                <div className="text-slate-300 text-sm">Volume Closed</div>
+                <div className="text-slate-300 text-sm">Team Career Sales</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-blue-400 mb-2">4.9★</div>

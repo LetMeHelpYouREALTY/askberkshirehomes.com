@@ -118,7 +118,7 @@ export default function ListingsPage() {
           {/* Hero Section */}
           <div className="max-w-4xl mx-auto text-center mb-12">
             <div className="inline-block bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-              Top 1% Las Vegas REALTOR®
+              Las Vegas REALTOR®
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
               Las Vegas Homes for Sale
@@ -220,7 +220,7 @@ export default function ListingsPage() {
             <p className="text-slate-600 text-center max-w-3xl mx-auto mb-8">
               Each Las Vegas neighborhood offers a unique lifestyle, from the resort-style living 
               of Summerlin to the communities of Henderson. Understanding these 
-              differences is crucial to finding a home that fits your needs. As a local REALTOR® in real estate since 1983, Dr. Jan Duffy provides 
+              differences is crucial to finding a home that fits your needs. As a local REALTOR® licensed since 2008 · 35 years in Las Vegas, Dr. Jan Duffy provides 
               expert guidance on which neighborhoods match your priorities—whether that's schools, 
               commute times, amenities, or investment potential.
             </p>
@@ -256,7 +256,7 @@ export default function ListingsPage() {
             </h2>
             <p className="text-slate-300 text-center max-w-3xl mx-auto mb-8">
               In today's competitive Las Vegas market, having expert representation can mean the 
-              difference between winning your dream home and losing out. Dr. Jan Duffy brings deep local market knowledge from a career in real estate since 1983.
+              difference between winning your dream home and losing out. Dr. Jan Duffy brings deep local market knowledge from a career licensed since 2008 · 35 years in Las Vegas.
             </p>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <div className="text-center">
@@ -468,7 +468,7 @@ export default function ListingsPage() {
             </h2>
             <p className="text-xl text-blue-100 mb-8">
               Contact Dr. Jan Duffy for personalized guidance, off-market listings, and expert 
-              representation from a Top 1% Las Vegas REALTOR®. Free buyer consultations 
+              representation from a Las Vegas REALTOR®. Free buyer consultations 
               available—the seller pays the commission.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

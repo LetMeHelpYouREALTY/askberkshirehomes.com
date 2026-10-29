@@ -63,7 +63,7 @@ const sellingBenefits = [
     icon: BarChart,
     title: "Expert Pricing Strategy",
     description:
-      "Dr. Jan has been in real estate since 1983, which means accurate pricing that attracts buyers without leaving money on the table. Overpriced homes sit and lose value; well-priced homes generate competition and sell for more.",
+      "Dr. Jan has been licensed since 2008 · 35 years in Las Vegas, which means accurate pricing that attracts buyers without leaving money on the table. Overpriced homes sit and lose value; well-priced homes generate competition and sell for more.",
   },
   {
     icon: DollarSign,
@@ -133,14 +133,14 @@ export default function SellersPage() {
           {/* Hero */}
           <div className="max-w-4xl mx-auto text-center mb-16">
             <div className="inline-block bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-              Top 1% Las Vegas REALTOR®
+              Las Vegas REALTOR®
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
               Sell Your Las Vegas Home for Top Dollar
             </h1>
             <p className="text-xl text-slate-600 mb-8">
               When you list with Dr. Jan Duffy, you get world-class marketing, expert pricing, and an agent buyers trust. Dr. Jan Duffy 
-              has been in real estate since 1983—helping sellers achieve top-dollar results 
+              has been licensed since 2008 · 35 years in Las Vegas—helping sellers achieve top-dollar results 
               with proven marketing strategies and skilled negotiation.
             </p>
             <div className="flex flex-wrap justify-center gap-4 text-sm text-slate-500">
@@ -313,11 +313,11 @@ export default function SellersPage() {
                 "Pricing your home correctly from day one is the single most important factor in
                 getting top dollar. Overpriced homes sit on the market, and every day on market costs 
                 you money—both in carrying costs and buyer perception. That's why I use comprehensive 
-                market analysis and my experience since 1983 to price homes right 
+                market analysis and my 35 years of Las Vegas experience to price homes right 
                 the first time. The result? My listings typically sell within 2% of asking price."
               </blockquote>
               <cite className="text-slate-900 font-semibold">
-                — Dr. Jan Duffy, REALTOR® | In Real Estate Since 1983
+                — Dr. Jan Duffy, REALTOR® | Licensed Since 2008
               </cite>
             </div>
           </section>
@@ -349,7 +349,7 @@ export default function SellersPage() {
                 <h2 className="text-3xl font-bold mb-4">What's Your Home Worth?</h2>
                 <p className="text-blue-100 mb-6">
                   Get a free, no-obligation home valuation from Dr. Jan Duffy. Using current MLS
-                  data and expertise since 1983, you'll know exactly what your 
+                  data and 35 years of Las Vegas expertise, you'll know exactly what your 
                   home could sell for in today's market. No algorithms—just real analysis from 
                   a local expert.
                 </p>
