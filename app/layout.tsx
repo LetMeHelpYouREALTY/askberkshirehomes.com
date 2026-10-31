@@ -7,6 +7,7 @@ import Script from "next/script";
 import { agentInfo, officeInfo, siteConfig } from "@/lib/site-config";
 import { canonicalForPath } from "@/lib/page-metadata";
 import { getSiteUrl } from "@/lib/site-url";
+import { SpeedInsights as VercelSpeedInsights } from "@vercel/speed-insights/next";
 
 export async function generateMetadata(): Promise<Metadata> {
   const headersList = await headers();
@@ -90,6 +91,7 @@ export default function RootLayout({
       <body>
         {children}
         <Analytics />
+        <VercelSpeedInsights />
       </body>
     </html>
   );
