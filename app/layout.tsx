@@ -7,6 +7,7 @@ import Script from "next/script";
 import { agentInfo, officeInfo, siteConfig } from "@/lib/site-config";
 import { canonicalForPath } from "@/lib/page-metadata";
 import { getSiteUrl } from "@/lib/site-url";
+import RealtorAnalytics from "../components/analytics/RealtorAnalytics";
 
 export async function generateMetadata(): Promise<Metadata> {
   const headersList = await headers();
@@ -90,6 +91,7 @@ export default function RootLayout({
       <body>
         {children}
         <Analytics />
+        <RealtorAnalytics siteName="askberkshirehomes.com" />
       </body>
     </html>
   );
